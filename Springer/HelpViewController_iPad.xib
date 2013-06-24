@@ -2,10 +2,10 @@
 <archive type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="8.00">
 	<data>
 		<int key="IBDocument.SystemTarget">1536</int>
-		<string key="IBDocument.SystemVersion">11E53</string>
+		<string key="IBDocument.SystemVersion">12A269</string>
 		<string key="IBDocument.InterfaceBuilderVersion">2840</string>
-		<string key="IBDocument.AppKitVersion">1138.47</string>
-		<string key="IBDocument.HIToolboxVersion">569.00</string>
+		<string key="IBDocument.AppKitVersion">1187</string>
+		<string key="IBDocument.HIToolboxVersion">624.00</string>
 		<object class="NSMutableDictionary" key="IBDocument.PluginVersions">
 			<string key="NS.key.0">com.apple.InterfaceBuilder.IBCocoaTouchPlugin</string>
 			<string key="NS.object.0">1926</string>
@@ -47,7 +47,6 @@
 								<int key="NSvFlags">274</int>
 								<string key="NSFrame">{{-184, -144}, {880, 662}}</string>
 								<reference key="NSSuperview" ref="343231621"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="508990887"/>
 								<object class="NSColor" key="IBUIBackgroundColor" id="101698439">
 									<int key="NSColorSpace">3</int>
@@ -61,7 +60,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{235, 177}, {42, 21}}</string>
 								<reference key="NSSuperview" ref="343231621"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="983187697"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<bool key="IBUIClipsSubviews">YES</bool>
@@ -92,7 +90,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{248, 180}, {15, 15}}</string>
 								<reference key="NSSuperview" ref="343231621"/>
-								<reference key="NSWindow"/>
 								<reference key="NSNextKeyView" ref="819709178"/>
 								<bool key="IBUIOpaque">NO</bool>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -129,7 +126,6 @@
 								<int key="NSvFlags">292</int>
 								<string key="NSFrame">{{-164, -108}, {840, 590}}</string>
 								<reference key="NSSuperview" ref="343231621"/>
-								<reference key="NSWindow"/>
 								<string key="NSReuseIdentifierKey">_NS:9</string>
 								<reference key="IBUIBackgroundColor" ref="555387528"/>
 								<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -139,7 +135,6 @@
 						</array>
 						<string key="NSFrame">{{256, 187}, {512, 374}}</string>
 						<reference key="NSSuperview" ref="766721923"/>
-						<reference key="NSWindow"/>
 						<string key="NSReuseIdentifierKey">_NS:9</string>
 						<reference key="IBUIBackgroundColor" ref="101698439"/>
 						<string key="targetRuntimeIdentifier">IBIPadFramework</string>
@@ -147,7 +142,6 @@
 				</array>
 				<string key="NSFrame">{{0, 20}, {1024, 748}}</string>
 				<reference key="NSSuperview"/>
-				<reference key="NSWindow"/>
 				<reference key="IBUIBackgroundColor" ref="101698439"/>
 				<bool key="IBUIClearsContextBeforeDrawing">NO</bool>
 				<object class="IBUISimulatedStatusBarMetrics" key="IBUISimulatedStatusBarMetrics">
@@ -307,63 +301,7 @@
 			<nil key="sourceID"/>
 			<int key="maxID">18</int>
 		</object>
-		<object class="IBClassDescriber" key="IBDocument.Classes">
-			<array class="NSMutableArray" key="referencedPartialClassDescriptions">
-				<object class="IBPartialClassDescription">
-					<string key="className">HelpViewController</string>
-					<string key="superclassName">UIViewController</string>
-					<object class="NSMutableDictionary" key="actions">
-						<string key="NS.key.0">Bn_close_Tapped:</string>
-						<string key="NS.object.0">id</string>
-					</object>
-					<object class="NSMutableDictionary" key="actionInfosByName">
-						<string key="NS.key.0">Bn_close_Tapped:</string>
-						<object class="IBActionInfo" key="NS.object.0">
-							<string key="name">Bn_close_Tapped:</string>
-							<string key="candidateClassName">id</string>
-						</object>
-					</object>
-					<dictionary class="NSMutableDictionary" key="outlets">
-						<string key="ViewAnimation">UIView</string>
-						<string key="Web_Help">UIWebView</string>
-						<string key="bn_Close">UIButton</string>
-						<string key="img_bg">UIImageView</string>
-						<string key="lbl_Help">UILabel</string>
-						<string key="view_Help">UIView</string>
-					</dictionary>
-					<dictionary class="NSMutableDictionary" key="toOneOutletInfosByName">
-						<object class="IBToOneOutletInfo" key="ViewAnimation">
-							<string key="name">ViewAnimation</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="Web_Help">
-							<string key="name">Web_Help</string>
-							<string key="candidateClassName">UIWebView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="bn_Close">
-							<string key="name">bn_Close</string>
-							<string key="candidateClassName">UIButton</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="img_bg">
-							<string key="name">img_bg</string>
-							<string key="candidateClassName">UIImageView</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="lbl_Help">
-							<string key="name">lbl_Help</string>
-							<string key="candidateClassName">UILabel</string>
-						</object>
-						<object class="IBToOneOutletInfo" key="view_Help">
-							<string key="name">view_Help</string>
-							<string key="candidateClassName">UIView</string>
-						</object>
-					</dictionary>
-					<object class="IBClassDescriptionSource" key="sourceIdentifier">
-						<string key="majorKey">IBProjectSource</string>
-						<string key="minorKey">./Classes/HelpViewController.h</string>
-					</object>
-				</object>
-			</array>
-		</object>
+		<object class="IBClassDescriber" key="IBDocument.Classes"/>
 		<int key="IBDocument.localizationMode">0</int>
 		<string key="IBDocument.TargetRuntimeIdentifier">IBIPadFramework</string>
 		<bool key="IBDocument.PluginDeclaredDependenciesTrackSystemTargetVersion">YES</bool>
