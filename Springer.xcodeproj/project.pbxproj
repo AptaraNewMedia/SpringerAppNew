@@ -26,6 +26,20 @@
 		575A67881779780C006A979F /* QuestionSetViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A67841779780C006A979F /* QuestionSetViewController_iPhone5.xib */; };
 		575A67891779780C006A979F /* QuizReviewViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A67851779780C006A979F /* QuizReviewViewControlleriPhone.xib */; };
 		575A678A1779780C006A979F /* QuizReviewViewControlleriPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A67861779780C006A979F /* QuizReviewViewControlleriPhone5.xib */; };
+		575A678D17798C56006A979F /* QuizResultViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A678B17798C56006A979F /* QuizResultViewController_iPhone.xib */; };
+		575A678E17798C56006A979F /* QuizResultViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A678C17798C56006A979F /* QuizResultViewController_iPhone5.xib */; };
+		575A679017798C6D006A979F /* QuizScoreViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A678F17798C6D006A979F /* QuizScoreViewController_iPhone.xib */; };
+		575A679617798CAF006A979F /* QuizScoreViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679117798CAF006A979F /* QuizScoreViewController_iPhone5.xib */; };
+		575A679717798CAF006A979F /* ScoreQuizTopicViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679217798CAF006A979F /* ScoreQuizTopicViewController_iPhone.xib */; };
+		575A679817798CAF006A979F /* ScoreQuizTopicViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679317798CAF006A979F /* ScoreQuizTopicViewController_iPhone5.xib */; };
+		575A679917798CAF006A979F /* ByQuizTopicViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679417798CAF006A979F /* ByQuizTopicViewController_iPhone.xib */; };
+		575A679A17798CAF006A979F /* ByQuizTopicViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679517798CAF006A979F /* ByQuizTopicViewController_iPhone5.xib */; };
+		575A679F17798CEE006A979F /* HelpViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679B17798CEE006A979F /* HelpViewController_iPhone.xib */; };
+		575A67A017798CEE006A979F /* HelpViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679C17798CEE006A979F /* HelpViewController_iPhone5.xib */; };
+		575A67A117798CEE006A979F /* InfoViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679D17798CEE006A979F /* InfoViewController_iPhone.xib */; };
+		575A67A217798CEE006A979F /* InfoViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A679E17798CEE006A979F /* InfoViewController_iPhone5.xib */; };
+		575A67A517798D11006A979F /* NotesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A67A317798D11006A979F /* NotesViewController_iPhone.xib */; };
+		575A67A617798D11006A979F /* NotesViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 575A67A417798D11006A979F /* NotesViewController_iPhone5.xib */; };
 		5783C9931771ABD3006A4654 /* ViewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5783C9911771ABD3006A4654 /* ViewImageViewController.m */; };
 		5783C9941771ABD3006A4654 /* ViewImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5783C9921771ABD3006A4654 /* ViewImageViewController.xib */; };
 		5791F8B61772E1A7004133B3 /* Test_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5791F8B51772E1A7004133B3 /* Test_Image.png */; };
@@ -369,6 +383,20 @@
 		575A67841779780C006A979F /* QuestionSetViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuestionSetViewController_iPhone5.xib; sourceTree = "<group>"; };
 		575A67851779780C006A979F /* QuizReviewViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizReviewViewControlleriPhone.xib; sourceTree = "<group>"; };
 		575A67861779780C006A979F /* QuizReviewViewControlleriPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizReviewViewControlleriPhone5.xib; sourceTree = "<group>"; };
+		575A678B17798C56006A979F /* QuizResultViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizResultViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A678C17798C56006A979F /* QuizResultViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizResultViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A678F17798C6D006A979F /* QuizScoreViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizScoreViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A679117798CAF006A979F /* QuizScoreViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizScoreViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A679217798CAF006A979F /* ScoreQuizTopicViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreQuizTopicViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A679317798CAF006A979F /* ScoreQuizTopicViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScoreQuizTopicViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A679417798CAF006A979F /* ByQuizTopicViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ByQuizTopicViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A679517798CAF006A979F /* ByQuizTopicViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ByQuizTopicViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A679B17798CEE006A979F /* HelpViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A679C17798CEE006A979F /* HelpViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HelpViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A679D17798CEE006A979F /* InfoViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A679E17798CEE006A979F /* InfoViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = InfoViewController_iPhone5.xib; sourceTree = "<group>"; };
+		575A67A317798D11006A979F /* NotesViewController_iPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesViewController_iPhone.xib; sourceTree = "<group>"; };
+		575A67A417798D11006A979F /* NotesViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotesViewController_iPhone5.xib; sourceTree = "<group>"; };
 		5781CA7A175C738A00508AEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5781CA7C175C739400508AEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5781CAB5175C9C6C00508AEF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
@@ -758,12 +786,18 @@
 				57D788B317462DC000E00827 /* QuizScoreViewController.h */,
 				57D788B417462DC000E00827 /* QuizScoreViewController.m */,
 				57D788B217462DC000E00827 /* QuizScoreViewController_Ipad.xib */,
+				575A678F17798C6D006A979F /* QuizScoreViewController_iPhone.xib */,
+				575A679117798CAF006A979F /* QuizScoreViewController_iPhone5.xib */,
 				57D788BE174652F200E00827 /* ByQuizTopicViewController.h */,
 				57D788BF174652F200E00827 /* ByQuizTopicViewController.m */,
 				57D788C0174652F200E00827 /* ByQuizTopicViewController.xib */,
+				575A679417798CAF006A979F /* ByQuizTopicViewController_iPhone.xib */,
+				575A679517798CAF006A979F /* ByQuizTopicViewController_iPhone5.xib */,
 				57D788C31746536700E00827 /* ScoreQuizTopicViewController.h */,
 				57D788C51746536700E00827 /* ScoreQuizTopicViewController.m */,
 				57D788C41746536700E00827 /* ScoreQuizTopicViewController.xib */,
+				575A679217798CAF006A979F /* ScoreQuizTopicViewController_iPhone.xib */,
+				575A679317798CAF006A979F /* ScoreQuizTopicViewController_iPhone5.xib */,
 			);
 			name = Score;
 			sourceTree = "<group>";
@@ -815,9 +849,9 @@
 			children = (
 				8707E3B01732E06700AFF0D6 /* MenuViewController.h */,
 				8707E3B11732E06700AFF0D6 /* MenuViewController.m */,
-				39FA18811779694900C63C45 /* MenuViewController_iPhone5.xib */,
-				8707E3B51732E0FD00AFF0D6 /* MenuViewController_iPhone.xib */,
 				8702C08A173E841B00DAA14C /* MenuViewController_iPad.xib */,
+				8707E3B51732E0FD00AFF0D6 /* MenuViewController_iPhone.xib */,
+				39FA18811779694900C63C45 /* MenuViewController_iPhone5.xib */,
 			);
 			name = Menu;
 			sourceTree = "<group>";
@@ -980,9 +1014,13 @@
 				87107513174256B1003B2C13 /* HelpViewController.h */,
 				87107514174256B1003B2C13 /* HelpViewController.m */,
 				871075DA17425B83003B2C13 /* HelpViewController_iPad.xib */,
+				575A679B17798CEE006A979F /* HelpViewController_iPhone.xib */,
+				575A679C17798CEE006A979F /* HelpViewController_iPhone5.xib */,
 				87107516174256B1003B2C13 /* InfoViewController.h */,
 				87107517174256B1003B2C13 /* InfoViewController.m */,
 				871075DC17425B8A003B2C13 /* InfoViewController_iPad.xib */,
+				575A679D17798CEE006A979F /* InfoViewController_iPhone.xib */,
+				575A679E17798CEE006A979F /* InfoViewController_iPhone5.xib */,
 			);
 			name = InfoHelp;
 			sourceTree = "<group>";
@@ -993,6 +1031,8 @@
 				8710751D174256BB003B2C13 /* NotesViewController.h */,
 				8710751E174256BB003B2C13 /* NotesViewController.m */,
 				8710751F174256BB003B2C13 /* NotesViewController_iPad.xib */,
+				575A67A317798D11006A979F /* NotesViewController_iPhone.xib */,
+				575A67A417798D11006A979F /* NotesViewController_iPhone5.xib */,
 			);
 			name = Notes;
 			sourceTree = "<group>";
@@ -1551,6 +1591,8 @@
 				87102C121733BEF8001897E4 /* QuizResultViewController.h */,
 				87102C131733BEF8001897E4 /* QuizResultViewController.m */,
 				87102C141733BEF8001897E4 /* QuizResultViewController.xib */,
+				575A678B17798C56006A979F /* QuizResultViewController_iPhone.xib */,
+				575A678C17798C56006A979F /* QuizResultViewController_iPhone5.xib */,
 			);
 			name = Result;
 			sourceTree = "<group>";
@@ -1909,6 +1951,20 @@
 				575A67881779780C006A979F /* QuestionSetViewController_iPhone5.xib in Resources */,
 				575A67891779780C006A979F /* QuizReviewViewControlleriPhone.xib in Resources */,
 				575A678A1779780C006A979F /* QuizReviewViewControlleriPhone5.xib in Resources */,
+				575A678D17798C56006A979F /* QuizResultViewController_iPhone.xib in Resources */,
+				575A678E17798C56006A979F /* QuizResultViewController_iPhone5.xib in Resources */,
+				575A679017798C6D006A979F /* QuizScoreViewController_iPhone.xib in Resources */,
+				575A679617798CAF006A979F /* QuizScoreViewController_iPhone5.xib in Resources */,
+				575A679717798CAF006A979F /* ScoreQuizTopicViewController_iPhone.xib in Resources */,
+				575A679817798CAF006A979F /* ScoreQuizTopicViewController_iPhone5.xib in Resources */,
+				575A679917798CAF006A979F /* ByQuizTopicViewController_iPhone.xib in Resources */,
+				575A679A17798CAF006A979F /* ByQuizTopicViewController_iPhone5.xib in Resources */,
+				575A679F17798CEE006A979F /* HelpViewController_iPhone.xib in Resources */,
+				575A67A017798CEE006A979F /* HelpViewController_iPhone5.xib in Resources */,
+				575A67A117798CEE006A979F /* InfoViewController_iPhone.xib in Resources */,
+				575A67A217798CEE006A979F /* InfoViewController_iPhone5.xib in Resources */,
+				575A67A517798D11006A979F /* NotesViewController_iPhone.xib in Resources */,
+				575A67A617798D11006A979F /* NotesViewController_iPhone5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
