@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		39FA18821779694900C63C45 /* MenuViewController_iPhone5.xib in Resources */ = {isa = PBXBuildFile; fileRef = 39FA18811779694900C63C45 /* MenuViewController_iPhone5.xib */; };
 		57069FC91769C5FE00D149A4 /* Img_Bn_GooglePlus.png in Resources */ = {isa = PBXBuildFile; fileRef = 57069FC71769C5FE00D149A4 /* Img_Bn_GooglePlus.png */; };
 		57069FCA1769C5FE00D149A4 /* Img_Bn_GooglePlus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 57069FC81769C5FE00D149A4 /* Img_Bn_GooglePlus@2x.png */; };
 		5752CB3E174C975200B70A7D /* CustomTitle.m in Sources */ = {isa = PBXBuildFile; fileRef = 5752CB3D174C975200B70A7D /* CustomTitle.m */; };
@@ -341,6 +342,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39FA18811779694900C63C45 /* MenuViewController_iPhone5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuViewController_iPhone5.xib; sourceTree = "<group>"; };
 		57069FC71769C5FE00D149A4 /* Img_Bn_GooglePlus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img_Bn_GooglePlus.png; sourceTree = "<group>"; };
 		57069FC81769C5FE00D149A4 /* Img_Bn_GooglePlus@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img_Bn_GooglePlus@2x.png"; sourceTree = "<group>"; };
 		5752CB3C174C975200B70A7D /* CustomTitle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomTitle.h; sourceTree = "<group>"; };
@@ -795,6 +797,7 @@
 		8702C08C173E8A6C00DAA14C /* Menu */ = {
 			isa = PBXGroup;
 			children = (
+				39FA18811779694900C63C45 /* MenuViewController_iPhone5.xib */,
 				8707E3B01732E06700AFF0D6 /* MenuViewController.h */,
 				8707E3B11732E06700AFF0D6 /* MenuViewController.m */,
 				8707E3B51732E0FD00AFF0D6 /* MenuViewController_iPhone.xib */,
@@ -1879,6 +1882,7 @@
 				57069FCA1769C5FE00D149A4 /* Img_Bn_GooglePlus@2x.png in Resources */,
 				5783C9941771ABD3006A4654 /* ViewImageViewController.xib in Resources */,
 				5791F8B61772E1A7004133B3 /* Test_Image.png in Resources */,
+				39FA18821779694900C63C45 /* MenuViewController_iPhone5.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
