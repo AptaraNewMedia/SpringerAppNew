@@ -292,6 +292,7 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
     NSLog(@"Protected URL:%@", protectedUrl);
     NSString *imageUrl = [NSString stringWithFormat:@"\"%@\"", sUrl];
     NSString *buttonUrl = [NSString stringWithFormat:@"\"http://pinterest.com/pin/create/button/?url=www.flor.com&media=%@&description=%@\"", protectedUrl, description];
+    //commit
     
     NSMutableString *htmlString = [[NSMutableString alloc] initWithCapacity:1000];
     [htmlString appendFormat:@"<html> <body>"];
