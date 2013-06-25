@@ -130,7 +130,14 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
     [shareview addSubview:ViewAnimation];
     
     webshare=[[UIWebView alloc]initWithFrame:CGRectMake(0, 0, 500, 500)];
-    webshare.scrollView.bounces = NO;
+    if (DEVICE_VERSION>CURRENT_VERSION)
+    {
+        webshare.scrollView.bounces = NO;
+    }
+    else
+    {
+        [(UIScrollView *)[[webshare subviews] lastObject] setBounces:NO];
+    }
     webshare.backgroundColor = COLOR_BG_BLACK_04;
     webshare.scalesPageToFit = YES;
     [ViewAnimation addSubview:webshare];
