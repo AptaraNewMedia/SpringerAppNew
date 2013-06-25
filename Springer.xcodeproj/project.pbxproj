@@ -17,6 +17,7 @@
 		5752CBF2174CCFE800B70A7D /* Img_Tick.png in Resources */ = {isa = PBXBuildFile; fileRef = 5752CBED174CCFE800B70A7D /* Img_Tick.png */; };
 		5752CBF3174CCFE800B70A7D /* Img_Tick@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5752CBEE174CCFE800B70A7D /* Img_Tick@2x.png */; };
 		5752CBF4174CCFE800B70A7D /* Img_Bn_Info@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5752CBEF174CCFE800B70A7D /* Img_Bn_Info@2x.png */; };
+		575A677517797662006A979F /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 575A677417797662006A979F /* libFlurry.a */; };
 		5783C9931771ABD3006A4654 /* ViewImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5783C9911771ABD3006A4654 /* ViewImageViewController.m */; };
 		5783C9941771ABD3006A4654 /* ViewImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5783C9921771ABD3006A4654 /* ViewImageViewController.xib */; };
 		5791F8B61772E1A7004133B3 /* Test_Image.png in Resources */ = {isa = PBXBuildFile; fileRef = 5791F8B51772E1A7004133B3 /* Test_Image.png */; };
@@ -31,7 +32,6 @@
 		57BE6C03175DEF0500D247C0 /* libz.1.1.3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 57BE6C02175DEF0500D247C0 /* libz.1.1.3.dylib */; };
 		57BE6C04175DEF6800D247C0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5781CA7A175C738A00508AEF /* MobileCoreServices.framework */; };
 		57BE6C05175DEF7100D247C0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5781CA7C175C739400508AEF /* CFNetwork.framework */; };
-		57BE6C1A175DFD3D00D247C0 /* Twitter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5781CAB5175C9C6C00508AEF /* Twitter.framework */; };
 		57C022E2174E309D0098B304 /* figure_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C02292174E309D0098B304 /* figure_1.png */; };
 		57C022E3174E309D0098B304 /* figure_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C02293174E309D0098B304 /* figure_2.png */; };
 		57C022E4174E309D0098B304 /* figure_3.png in Resources */ = {isa = PBXBuildFile; fileRef = 57C02294174E309D0098B304 /* figure_3.png */; };
@@ -316,7 +316,6 @@
 		872C926E174FBAE800D0D07B /* View_Help_Flag_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872C926A174FBAE800D0D07B /* View_Help_Flag_icon@2x.png */; };
 		872C926F174FBAE800D0D07B /* View_Help_Notepad_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 872C926B174FBAE800D0D07B /* View_Help_Notepad_icon.png */; };
 		872C9270174FBAE800D0D07B /* View_Help_Notepad_icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 872C926C174FBAE800D0D07B /* View_Help_Notepad_icon@2x.png */; };
-		872C92CA174FCA0800D0D07B /* libFlurry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 872C92C9174FCA0800D0D07B /* libFlurry.a */; };
 		872C92CC174FCA6D00D0D07B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 872C92CB174FCA6C00D0D07B /* SystemConfiguration.framework */; };
 		875602AD17672CA5005EBD1E /* Img_Bn_BackBt.png in Resources */ = {isa = PBXBuildFile; fileRef = 875602A917672CA5005EBD1E /* Img_Bn_BackBt.png */; };
 		875602AE17672CA5005EBD1E /* Img_Bn_BackBt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 875602AA17672CA5005EBD1E /* Img_Bn_BackBt@2x.png */; };
@@ -327,7 +326,6 @@
 		87C2008917535B1B0007E6EA /* Img_Bn_ScoreByTopicBg_P_a.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C2008717535B1B0007E6EA /* Img_Bn_ScoreByTopicBg_P_a.png */; };
 		87C2008A17535B1B0007E6EA /* Img_Bn_ScoreByTopicBg_P_a@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 87C2008817535B1B0007E6EA /* Img_Bn_ScoreByTopicBg_P_a@2x.png */; };
 		87C7108E173F654400081678 /* QuizReviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C7108B173F654400081678 /* QuizReviewViewController.m */; };
-		87C7108F173F654400081678 /* QuizReviewViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C7108C173F654400081678 /* QuizReviewViewController.xib */; };
 		87C71090173F654400081678 /* QuizReviewViewController_Ipad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C7108D173F654400081678 /* QuizReviewViewController_Ipad.xib */; };
 		87C71096173F658F00081678 /* ReviewTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 87C71094173F658F00081678 /* ReviewTableCell.m */; };
 		87C71097173F658F00081678 /* ReviewTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 87C71095173F658F00081678 /* ReviewTableCell.xib */; };
@@ -354,6 +352,7 @@
 		5752CBED174CCFE800B70A7D /* Img_Tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img_Tick.png; sourceTree = "<group>"; };
 		5752CBEE174CCFE800B70A7D /* Img_Tick@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img_Tick@2x.png"; sourceTree = "<group>"; };
 		5752CBEF174CCFE800B70A7D /* Img_Bn_Info@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img_Bn_Info@2x.png"; sourceTree = "<group>"; };
+		575A677417797662006A979F /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		5781CA7A175C738A00508AEF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		5781CA7C175C739400508AEF /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		5781CAB5175C9C6C00508AEF /* Twitter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Twitter.framework; path = System/Library/Frameworks/Twitter.framework; sourceTree = SDKROOT; };
@@ -685,7 +684,6 @@
 		872C926C174FBAE800D0D07B /* View_Help_Notepad_icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "View_Help_Notepad_icon@2x.png"; sourceTree = "<group>"; };
 		872C92C6174FC5B100D0D07B /* AppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppConstants.h; sourceTree = "<group>"; };
 		872C92C8174FCA0800D0D07B /* Flurry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Flurry.h; sourceTree = "<group>"; };
-		872C92C9174FCA0800D0D07B /* libFlurry.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libFlurry.a; sourceTree = "<group>"; };
 		872C92CB174FCA6C00D0D07B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		875602A917672CA5005EBD1E /* Img_Bn_BackBt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Img_Bn_BackBt.png; sourceTree = "<group>"; };
 		875602AA17672CA5005EBD1E /* Img_Bn_BackBt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img_Bn_BackBt@2x.png"; sourceTree = "<group>"; };
@@ -697,7 +695,6 @@
 		87C2008817535B1B0007E6EA /* Img_Bn_ScoreByTopicBg_P_a@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Img_Bn_ScoreByTopicBg_P_a@2x.png"; sourceTree = "<group>"; };
 		87C7108A173F654400081678 /* QuizReviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QuizReviewViewController.h; sourceTree = "<group>"; };
 		87C7108B173F654400081678 /* QuizReviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QuizReviewViewController.m; sourceTree = "<group>"; };
-		87C7108C173F654400081678 /* QuizReviewViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizReviewViewController.xib; sourceTree = "<group>"; };
 		87C7108D173F654400081678 /* QuizReviewViewController_Ipad.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = QuizReviewViewController_Ipad.xib; sourceTree = "<group>"; };
 		87C71093173F658F00081678 /* ReviewTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReviewTableCell.h; sourceTree = "<group>"; };
 		87C71094173F658F00081678 /* ReviewTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReviewTableCell.m; sourceTree = "<group>"; };
@@ -718,7 +715,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57BE6C1A175DFD3D00D247C0 /* Twitter.framework in Frameworks */,
 				57BE6C05175DEF7100D247C0 /* CFNetwork.framework in Frameworks */,
 				57BE6C04175DEF6800D247C0 /* MobileCoreServices.framework in Frameworks */,
 				57BE6C03175DEF0500D247C0 /* libz.1.1.3.dylib in Frameworks */,
@@ -733,7 +729,7 @@
 				8707E3671732DAD100AFF0D6 /* UIKit.framework in Frameworks */,
 				8707E3691732DAD100AFF0D6 /* Foundation.framework in Frameworks */,
 				8707E36B1732DAD100AFF0D6 /* CoreGraphics.framework in Frameworks */,
-				872C92CA174FCA0800D0D07B /* libFlurry.a in Frameworks */,
+				575A677517797662006A979F /* libFlurry.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1501,7 +1497,7 @@
 			isa = PBXGroup;
 			children = (
 				872C92C8174FCA0800D0D07B /* Flurry.h */,
-				872C92C9174FCA0800D0D07B /* libFlurry.a */,
+				575A677417797662006A979F /* libFlurry.a */,
 			);
 			name = Flurry;
 			path = Resources/Flurry;
@@ -1520,7 +1516,6 @@
 				87102C051733B334001897E4 /* QuestionSetViewController_iPhone.xib */,
 				87C7108A173F654400081678 /* QuizReviewViewController.h */,
 				87C7108B173F654400081678 /* QuizReviewViewController.m */,
-				87C7108C173F654400081678 /* QuizReviewViewController.xib */,
 				87C7108D173F654400081678 /* QuizReviewViewController_Ipad.xib */,
 			);
 			name = Quiz;
@@ -1613,7 +1608,6 @@
 				87102C161733BEF8001897E4 /* QuizResultViewController.xib in Resources */,
 				8722DCFF173AB67D00722908 /* QuestionsWithImagesController_Portrait.xib in Resources */,
 				8702C08B173E841B00DAA14C /* MenuViewController_iPad.xib in Resources */,
-				87C7108F173F654400081678 /* QuizReviewViewController.xib in Resources */,
 				87C71090173F654400081678 /* QuizReviewViewController_Ipad.xib in Resources */,
 				87C71097173F658F00081678 /* ReviewTableCell.xib in Resources */,
 				87107521174256BB003B2C13 /* NotesViewController_iPad.xib in Resources */,
