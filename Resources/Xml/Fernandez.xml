@@ -5,8 +5,7 @@
         
         <chapterno>1</chapterno>
         <title>Stroke</title>
-        <questions>
-            
+        <questions>            
             
             
             <question>
@@ -991,7 +990,7 @@
             <question>
                 <questionid>66</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 62-year-old Canadian man is evaluated for a 6-year history of droopy eye lids, difficulty with talking and eating, and generalized fatigue. His father died at the age of 58 of aspiration pneumonia and also had droopy eyes. The patient’s symptoms are persistent throughout the day and he denies any improvement with rest. Examination shows bilateral ptosis, dysarthria, and decreased muscle strength through all extremities. Edrophonium testing is negative and he has negative serology testing for acetylcholine antibodies. A muscle biopsy is performed. All of the following findings would be expected on histology, except:]]></text>
+                <text><![CDATA[A 62-year-old Canadian man is evaluated for a 6-year history of droopy eye lids, difficulty with talking and eating, and generalized fatigue. His father died at the age of 58 of aspiration pneumonia and also had droopy eyes. The patient’s symptoms are persistent throughout the day and he denies any improvement with rest. Examination shows bilateral ptosis, dysarthria, and decreased muscle strength through all extremities. Edrophonium testing is negative and he has negative serology testing for acetylcholine antibodies. A muscle biopsy is performed. All of the following findings would be expected on histology, <b>except</b>:]]></text>
                 <option><![CDATA[Loss of muscle fibers]]></option>
                 <option><![CDATA[Rimmed vacuoles]]></option>
                 <option><![CDATA[Ragged red fibers]]></option>
@@ -1082,11 +1081,11 @@
                     <th>Sciatic Neuropathy</th>
                     </tr>
                     <tr>
-                    <td>Common</td>
-                    <td> </td>
-                    <td>spinal stenosis</td>
-                    <td>hematoma, prolonged labor</td>
-                    <td>injection injury</td>
+                    <td>Common Causes</td>
+                    <td>Compression/trauma</td>
+                    <td>Disk herniation, spinal stenosis</td>
+                    <td>Pelvic surgery, hematoma, prolonged labor</td>
+                    <td>Hip surgery, injection injury</td>
                     </tr>
                     <tr>
                     <td>Ankle inversion</td>
@@ -1311,7 +1310,7 @@
             <question>
                 <questionid>84</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[All of the following are associated with Kearns-Sayre syndrome, except:]]></text>
+                <text><![CDATA[All of the following are associated with Kearns-Sayre syndrome, <b>except</b>:]]></text>
                 <option><![CDATA[External ophthalmoplegia]]></option>
                 <option><![CDATA[Retinal degeneration]]></option>
                 <option><![CDATA[Cardiac arrhythmias]]></option>
@@ -2082,7 +2081,7 @@
             <question>
                 <questionid>143</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[All of the following movement disorders are considered “synucleinopathies,” except:]]></text>
+                <text><![CDATA[All of the following movement disorders are considered “synucleinopathies,” <b>except</b>:]]></text>
                 <option><![CDATA[Corticobasal degeneration]]></option>
                 <option><![CDATA[Parkinson disease]]></option>
                 <option><![CDATA[Dementia with Lewy bodies]]></option>
@@ -2095,7 +2094,7 @@
             <question>
                 <questionid>144</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 40-year-old man of Japanese descent presents with progressive chorea, ataxia, and eventually dementia. During his 15-year battle with the disorder, he was also noted to have intermittent bouts of psychosis. His brother had a similar condition but experienced it at a much younger age of 15. His brother had myoclonus, seizures, and mental retardation before dying at the age of 25. The following are true about this condition, except:]]></text>
+                <text><![CDATA[A 40-year-old man of Japanese descent presents with progressive chorea, ataxia, and eventually dementia. During his 15-year battle with the disorder, he was also noted to have intermittent bouts of psychosis. His brother had a similar condition but experienced it at a much younger age of 15. His brother had myoclonus, seizures, and mental retardation before dying at the age of 25. The following are true about this condition, <b>except</b>:]]></text>
                 <option><![CDATA[It is most likely due to an unstable expansion of a trinucleotide repeat.]]></option>
                 <option><![CDATA[The age of onset is inversely proportional to the size of the trinucleotide repeat.]]></option>
                 <option><![CDATA[The trinucleotide repeat is located on chromosome 4.]]></option>
@@ -2251,7 +2250,7 @@
             <question>
                 <questionid>157</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are true about postencephalitic parkinsonism, except:]]></text>
+                <text><![CDATA[The following are true about postencephalitic parkinsonism, <b>except</b>:]]></text>
                 <option><![CDATA[This disorder is almost nonexistent but nevertheless was an extremely important disease after the 1914–1918 influenza epidemics.]]></option>
                 <option><![CDATA[Some individuals developed encephalitis, and months to years after recovery from the acute illness, they developed parkinsonism.]]></option>
                 <option><![CDATA[Parkinsonism was commonly associated with oculogyric symptoms.]]></option>
@@ -2905,15 +2904,18 @@
         <chapterno>8</chapterno>
         <title>Neurotoxicology</title>
         <questions>
+            
+            
+            
             <question>
                 <questionid>205</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 37-year-old Caucasian woman from West Virginia presents to your neurology clinic with complaints of nonspecific pains that are shooting down her legs bilaterally and some burning pains in her palms and in her forearms. The pain has been steadily increasing over the past 3 weeks. Of note, she recently moved out of her parents’ home into a new development in an area that was once used as a waste depository for a nearby glass and semiconductor factory. On examination, she is mildly tachycardic with a heart rate in the low 100s. Her blood pressure is 100/60. You notice that she has decreased light touch sensation in both feet. She is sent to the hospital for further evaluation and treatment. While in the hospital, her symptoms are stable. A pubic hair sample is taken and analyzed, which confirms your diagnosis. Which of the following therapies do you recommend for her poisoning in this acute setting?]]></text>
-                <option><![CDATA[IV hydration alone]]></option>
-                <option><![CDATA[IV hydration with immediate referral for hemodialysis]]></option>
-                <option><![CDATA[Treatment with IV immunoglobulin]]></option>
-                <option><![CDATA[IV hydration and immediate chelation with sodium EDTA]]></option>
-                <option><![CDATA[IV hydration and IM administration of dimercaprol]]></option>
+                <option><![CDATA[ IV hydration alone]]></option>
+                <option><![CDATA[ IV hydration with immediate referral for hemodialysis]]></option>
+                <option><![CDATA[ Treatment with IV immunoglobulin]]></option>
+                <option><![CDATA[ IV hydration and immediate chelation with sodium EDTA]]></option>
+                <option><![CDATA[ IV hydration and IM administration of dimercaprol]]></option>
                 <strokeanswer>E</strokeanswer>
                 <rationaletext><![CDATA[ The patient’s symptoms are most consistent with arsenic toxicity (generally found in areas that were associated with glass and semiconductors). Dimercaprol 2.5 to 3 mg/kg IM q4h is a first-line chelating agent that can be administered for the treatment of arsenic poisoning.]]></rationaletext>
             </question>
@@ -2921,11 +2923,11 @@
                 <questionid>206</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 2-year-old infant presents to the pediatric ICU with sudden onset of profound progressive symmetric hypotonia. On presentation, she has dysconjugate gaze and is found drooling with a weak cough. Her breathing is extremely shallow and labored, requiring intubation within hours of admission. Her blood pressure, heart rate, and temperature are within normal limits. Her parents deny any honey exposure and the patient has not had any recent illness. They admit to recently moving to a newly constructed home, and there is continued construction surrounding their house and throughout the development. An EMG and rapid repeated muscle stimulation test (20–50 Hz) is performed, and displays a potentiated response in muscle action potentials. A lumbar puncture is completed with normal protein level and normal cell counts. MRI of the brain and cervical spine are normal. Which test would be most confirmatory in the diagnosis of this patient’s condition?]]></text>
-                <option><![CDATA[A stool sample sent for mouse bioassay testing]]></option>
-                <option><![CDATA[A Tensilon (edrophonium) test]]></option>
-                <option><![CDATA[Nerve biopsy]]></option>
-                <option><![CDATA[Serum lead level]]></option>
-                <option><![CDATA[Heavy metal screen]]></option>
+                <option><![CDATA[ A stool sample sent for mouse bioassay testing]]></option>
+                <option><![CDATA[ A Tensilon (edrophonium) test]]></option>
+                <option><![CDATA[ Nerve biopsy]]></option>
+                <option><![CDATA[ Serum lead level]]></option>
+                <option><![CDATA[ Heavy metal screen]]></option>
                 <strokeanswer>A</strokeanswer>
                 <rationaletext><![CDATA[ The patient’s symptoms are most consistent with acute botulism toxicity. Even though she had no honey exposure, botulism toxin and spores are present in the soil and when lifted (as often occurs in new housing construction development areas), these spores can be ingested, causing botulism toxicity. Confirmation of botulism can be made by stool and blood samples, which are sent for mouse bioassay testing. Her symptoms and neurological testing are not consistent with myasthenia, heavy metal, or lead toxicity.]]></rationaletext>
             </question>
@@ -2933,11 +2935,11 @@
                 <questionid>207</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 5-year-old child is brought into the emergency department with red cheeks, nose, and lips, with mild to moderate hypotonia and desquamation of the hand. He was found in the garage playing with a shattered fluorescent bulb and a used car battery. He is tachypneic with an elevated heart rate and elevated temperature to 101.5°F. Neurological examination is significant for ataxia and altered mentation. Peripheral vision is limited. Speech is markedly slurred and he is anuric. Which of the following medications would be most beneficial in the initial treatment of this patient prior to dialysis?]]></text>
-                <option><![CDATA[Inhaled <i>N</i>-acetylcysteine]]></option>
-                <option><![CDATA[IV <i>N</i>-acetylcysteine]]></option>
-                <option><![CDATA[Penicillamine 20–30 mg/kg PO]]></option>
-                <option><![CDATA[Dimercaprol 2.5 mg/kg IM]]></option>
-                <option><![CDATA[Deferoxamine 0.1 to 1 g IM]]></option>
+                <option><![CDATA[ Inhaled <i>N</i>-acetylcysteine]]></option>
+                <option><![CDATA[ IV <i>N</i>-acetylcysteine]]></option>
+                <option><![CDATA[ Penicillamine 20–30 mg/kg PO]]></option>
+                <option><![CDATA[ Dimercaprol 2.5 mg/kg IM]]></option>
+                <option><![CDATA[ Deferoxamine 0.1 to 1 g IM]]></option>
                 <strokeanswer>D</strokeanswer>
                 <rationaletext><![CDATA[ The patient’s symptoms are most consistent with acute mercury intoxication. Elemental mercury is poisonous and can cause desquamation of the hand in some cases. Mercury is found in old automobile batteries and fractured fluorescent lights. His symptoms are also consistent with acute mercury toxicity. The treatment for acute mercury toxicity is dimercaprol 2.5 mg/kg IM.]]></rationaletext>
             </question>
@@ -2945,13 +2947,13 @@
                 <questionid>208</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 61-year-old woman is brought into the emergency department in the middle of the winter by her husband after he noticed that she was becoming acutely drowsy, confused, and lethargic. She is able to maintain a stable airway. He admits that he came home from work to find her in the bedroom hallucinating and agitated. He notes that she recently began using the kerosene heater. On examination, she is tachycardic and hyperthermic. Funduscopic examination revealed flame hemorrhages and marked papilledema. She displayed brisk reflexes and rigidity. Which of the following is the most appropriate initial therapy for this patient?]]></text>
-                <option><![CDATA[Initiate pulse oximetry, start 70% FiO2 therapy with sodium bicarbonate infusion and titrate FiO2 up until pulse oximeter reading is at least 92%.]]></option>
-                <option><![CDATA[Obtain arterial blood gas (ABG), start 100% FiO2 therapy and continue to check HbCO levels until patient is asymptomatic and HbCO levels are below 10%.]]></option>
+                <option><![CDATA[ Initiate pulse oximetry, start 70% FiO2 therapy with sodium bicarbonate infusion and titrate FiO2 up until pulse oximeter reading is at least 92%.]]></option>
+                <option><![CDATA[ Obtain arterial blood gas (ABG), start 100% FiO2 therapy and continue to check HbCO levels until patient is asymptomatic and HbCO levels are below 10%.]]></option>
                 <option><![CDATA[ Obtain ABG, start 70% FiO2 therapy and check ICP readings, treating with mannitol and hypertonic saline to maintain intracranial pressure readings between 10 and 20 mmHg.]]></option>
-                <option><![CDATA[Obtain ABG followed by rapid sequence intubation and continuous intracranial pressure monitoring by external ventricular device. Refer patient for emergent hemodialysis.]]></option>
-                <option><![CDATA[Initiate immediate hyperbaric oxygen therapy with continuous pulse oximetry readings and aggressive correction of any acidosis with sodium bicarbonate drip.]]></option>
+                <option><![CDATA[ Obtain ABG followed by rapid sequence intubation and continuous intracranial pressure monitoring by external ventricular device. Refer patient for emergent hemodialysis.]]></option>
+                <option><![CDATA[ Initiate immediate hyperbaric oxygen therapy with continuous pulse oximetry readings and aggressive correction of any acidosis with sodium bicarbonate drip.]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[This patient’s symptoms are most consistent with acute carbon monoxide toxicity. Kerosene heaters and other hydrocarbon burning agents can cause large amounts of carbon monoxide (CO) to build up, causing similar symptoms to those seen in this scenario. The most appropriate treatment for CO toxicity is to start 100% FiO<sub>2</sub> and monitor HbCO levels until levels are below 10%. Pulse oximetry cannot detect hypoxia in the setting of CO toxicity and ABG draws should be repeated to measure blood levels of O<sub>2</sub> and HbCO. Hyperbaric oxygen is still considered controversial therapy; however, aggressive correction of acidosis with sodium bicarbonate is not recommended, as this can lead to a shift in the oxyhemoglobin dissociation curve away from oxygen retention by hemoglobin.]]></rationaletext>
+                <rationaletext><![CDATA[ This patient’s symptoms are most consistent with acute carbon monoxide toxicity. Kerosene heaters and other hydrocarbon burning agents can cause large amounts of carbon monoxide (CO) to build up, causing similar symptoms to those seen in this scenario. The most appropriate treatment for CO toxicity is to start 100% FiO<sub>2</sub> and monitor HbCO levels until levels are below 10%. Pulse oximetry cannot detect hypoxia in the setting of CO toxicity and ABG draws should be repeated to measure blood levels of O<sub>2</sub> and HbCO. Hyperbaric oxygen is still considered controversial therapy; however, aggressive correction of acidosis with sodium bicarbonate is not recommended, as this can lead to a shift in the oxyhemoglobin dissociation curve away from oxygen retention by hemoglobin.]]></rationaletext>
             </question>
             <question>
                 <questionid>209</questionid>
@@ -2959,33 +2961,33 @@
                 <text><![CDATA[ A 33-year-old woman is brought into the emergency department after being found in a park while seizing. Her respiratory rate is markedly reduced (6–8 breaths per minute) and her pupils are pinpoint. She is drowsy and only arousable to deep sternal rub. A urine toxicology test is pending and the emergency medicine team is considering intubation. Glucose level is 192 mg/dL and a stat ABG shows normal levels of sodium and potassium and an increased lactic acid level to 3.2 mmol/L. Which of the following is the most appropriate initial management of this patient?]]></text>
                 <option><![CDATA[ Immediate administration of flumazenil 0.2 to 0.5 mg IV]]></option>
                 <option><![CDATA[ Immediate administration of colestipol 5 g PO q6–8h with Ativan for seizure prophylaxis]]></option>
-                <option><![CDATA[IV administration of glucagon 3.5 mg with continuous infusion of D5W]]></option>
-                <option><![CDATA[IV administration of naloxone 2 mg IV with adequate IV fluid supplementation]]></option>
-                <option><![CDATA[IV insulin drip with 1 L bolus of fluids and adequate potassium supplementation]]></option>
+                <option><![CDATA[ IV administration of glucagon 3.5 mg with continuous infusion of D5W]]></option>
+                <option><![CDATA[ IV administration of naloxone 2 mg IV with adequate IV fluid supplementation]]></option>
+                <option><![CDATA[ IV insulin drip with 1 L bolus of fluids and adequate potassium supplementation]]></option>
                 <strokeanswer>D</strokeanswer>
-                <rationaletext><![CDATA[This patient’s symptoms are most consistent with acute opiate overdose. Although her glucose is increased, this does not explain her markedly reduced respiratory rate or her pinpoint pupils. Naloxone can help reverse the effects of opiates rather quickly and should be administered in this patient with adequate IV fluid supplementation.]]></rationaletext>
+                <rationaletext><![CDATA[ This patient’s symptoms are most consistent with acute opiate overdose. Although her glucose is increased, this does not explain her markedly reduced respiratory rate or her pinpoint pupils. Naloxone can help reverse the effects of opiates rather quickly and should be administered in this patient with adequate IV fluid supplementation.]]></rationaletext>
             </question>
             <question>
                 <questionid>210</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 44-year-old patient with a history of hypertension, hyperlipidemia, and seizures is brought into the emergency department (ED) with decreased level of consciousness and confusion. He becomes obtunded in the ED and requires emergent intubation. The patient was recently diagnosed by his primary care physician with a viral gastroenteritis after presenting with GI upset, nausea, and vomiting, with negative stool cultures. He takes nebivolol, simvastatin, and divalproex sodium extended-release tablets daily. He began taking over-the-counter cimetidine 1 month ago for symptomatic acid reflux. A routine EEG is completed and was essentially normal. A valproate level is obtained and found to be markedly elevated (700 mg/L). What is the most appropriate therapy to administer to this patient?]]></text>
                 <option><![CDATA[ Discontinuation of valproate, initiation of naloxone, and IV fluids with D5W]]></option>
-                <option><![CDATA[Discontinuation of valproate, insertion of venovenous catheter for continuous venovenous (CVV) hemodialysis and utilization of activated charcoal with whole-bowel irrigation]]></option>
-                <option><![CDATA[Discontinuation of valproate and immediate administration of large volume boluses of normal saline]]></option>
+                <option><![CDATA[ Discontinuation of valproate, insertion of venovenous catheter for continuous venovenous (CVV) hemodialysis and utilization of activated charcoal with whole-bowel irrigation]]></option>
+                <option><![CDATA[ Discontinuation of valproate and immediate administration of large volume boluses of normal saline]]></option>
                 <option><![CDATA[ Discontinuation of valproate, followed by administration of IV glucagon and IV phenytoin load, followed by oral sustained release phenytoin]]></option>
-                <option><![CDATA[Discontinuation of valproate, administration of levetiracetam 500 mg bid PO, and IV fluids]]></option>
+                <option><![CDATA[ Discontinuation of valproate, administration of levetiracetam 500 mg bid PO, and IV fluids]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[This patient’s condition is most consistent with valproic acid toxicity. Patients on sustained release valproate therapy should have activated charcoal and whole-bowel irrigation if their last medication dosing was recent. In addition, if the patient’s condition warrants it due to instability, a venovenous catheter should be placed for continuous venovenous hemodialysis (CVVHD) therapy to remove blood levels of valproic acid.]]></rationaletext>
+                <rationaletext><![CDATA[ This patient’s condition is most consistent with valproic acid toxicity. Patients on sustained release valproate therapy should have activated charcoal and whole-bowel irrigation if their last medication dosing was recent. In addition, if the patient’s condition warrants it due to instability, a venovenous catheter should be placed for continuous venovenous hemodialysis (CVVHD) therapy to remove blood levels of valproic acid.]]></rationaletext>
             </question>
             <question>
                 <questionid>211</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 4-year-old child is brought by his mother to the emergency department after she noticed that he was having worsening abdominal pain and vomiting, with noticeable pallor. Over the past few months, she noticed that he was not meeting milestones and was unable to participate in his pre-K school classes. He has been increasing irritable over the past few weeks and had a significant weight loss. Recently, he has been more sluggish and lethargic. Initial workup in the ED shows a mild anemia and otherwise normal blood counts and electrolytes. A chest/abdominal x-ray demonstrates multiple opaque speckles throughout the stomach and middle GI tract. Of note, the patient’s family lives in a private apartment complex built in the early 1920s that has been recently restored. Which of the following therapies is most likely to aid in the treatment of this patient?]]></text>
-                <option><![CDATA[Succimer 10 mg/kg PO q 12h with whole-bowel irrigation]]></option>
-                <option><![CDATA[Deferoxamine 0.5 to 1 g IM qd with whole-bowel irrigation]]></option>
-                <option><![CDATA[IV immunoglobulin × 3 days, followed by normal saline infusion]]></option>
-                <option><![CDATA[Whole-bowel irrigation alone]]></option>
-                <option><![CDATA[Parenteral CaNa2 EDTA]]></option>
+                <text><![CDATA[ A 4-year-old child is brought by his mother to the emergency department after she noticed that he was having worsening abdominal pain and vomiting, with noticeable pallor. Over the past few months, she noticed that he was not meeting milestones and was unable to participate in his pre-K school classes. He has been increasing irritable over the past few weeks and had a significant weight loss. Recently, he has been more sluggish and lethargic. Initial workup in the ED shows a mild anemia and otherwise normal blood counts and electrolytes. A chest/abdominal x-ray demonstrates multiple opaque speckles throughout the stomach and middle GI tract. Of note, the patient’s family lives in a private apartment complex built in the early 1920s that has been recently restored. Which of the following therapies is most likely to aid in the treatment of this patient?]]></text>
+                <option><![CDATA[ Succimer 10 mg/kg PO q 12h with whole-bowel irrigation]]></option>
+                <option><![CDATA[ Deferoxamine 0.5 to 1 g IM qd with whole-bowel irrigation]]></option>
+                <option><![CDATA[ IV immunoglobulin × 3 days, followed by normal saline infusion]]></option>
+                <option><![CDATA[ Whole-bowel irrigation alone]]></option>
+                <option><![CDATA[ Parenteral CaNa2 EDTA]]></option>
                 <strokeanswer>A</strokeanswer>
                 <rationaletext><![CDATA[ This patient’s symptoms are most consistent with lead toxicity. Although it is unknown whether the symptoms of lead toxicity in this patient are reversible, succimer 10 mg/kg orally is the treatment of choice for chelation of the offending lead agent. In addition, on chest x-ray and abdominal x-ray, lead chips can be visualized and whole-bowel irrigation should be utilized to enhance therapy.]]></rationaletext>
             </question>
@@ -2993,13 +2995,13 @@
                 <questionid>212</questionid>
                 <type>SingleSelect</type>
                 <text><![CDATA[ A 62-year-old man with a history of atrial fibrillation (on metoprolol and digoxin) and angina (on nitrates) presents to the emergency department (ED) after his wife noticed altered mentation with lip smacking and a coarse tremor in the limbs. Over the past few weeks he has been increasingly forgetful and even more recently began “seeing cats in the room.” On initial evaluation in the ED, his heart rate is 63 breaths per minute with a blood pressure of 103/50. Neurological examination shows a confused man who is not following commands reliably and is displaying sporadic versive eye movements with some intermittent lip smacking. A coarse tremor is confirmed. Routine EEG is performed, which is positive for epileptogenicity. Phenytoin load is initiated. MRI is negative. A digoxin level is measured at 5.3 µg/L. Which of the following would be most beneficial in the treatment of this patient?]]></text>
-                <option><![CDATA[Discontinuation of metoprolol with IV bolus of normal saline, followed by IV glucagon]]></option>
-                <option><![CDATA[Discontinuation of nitrates, digoxin load followed by epinephrine 1 mg IV]]></option>
-                <option><![CDATA[Discontinuation of digoxin, followed by weight-based digoxin immune formed antibody and normal saline infusion]]></option>
-                <option><![CDATA[Discontinuation of phenytoin and initiation of levetiracetam load IV, followed by oral levetiracetam 1000 mg bid]]></option>
-                <option><![CDATA[Discontinuation of digoxin with initiation of olanzapine Zydis 10 mg qhs]]></option>
+                <option><![CDATA[ Discontinuation of metoprolol with IV bolus of normal saline, followed by IV glucagon]]></option>
+                <option><![CDATA[ Discontinuation of nitrates, digoxin load followed by epinephrine 1 mg IV]]></option>
+                <option><![CDATA[ Discontinuation of digoxin, followed by weight-based digoxin immune formed antibody and normal saline infusion]]></option>
+                <option><![CDATA[ Discontinuation of phenytoin and initiation of levetiracetam load IV, followed by oral levetiracetam 1000 mg bid]]></option>
+                <option><![CDATA[ Discontinuation of digoxin with initiation of olanzapine Zydis 10 mg qhs]]></option>
                 <strokeanswer>C</strokeanswer>
-                <rationaletext><![CDATA[This patient’s condition is most consistent with digoxin toxicity. Digoxin toxicity has been reported to cause hallucinations, altered mentation, and in severe cases even seizures. Management with digoxin immune FAB and adequate hydration should be carried out in an intensive care unit setting to ensure proper recovery.]]></rationaletext>
+                <rationaletext><![CDATA[ This patient’s condition is most consistent with digoxin toxicity. Digoxin toxicity has been reported to cause hallucinations, altered mentation, and in severe cases even seizures. Management with digoxin immune FAB and adequate hydration should be carried out in an intensive care unit setting to ensure proper recovery.]]></rationaletext>
             </question>
             <question>
                 <questionid>213</questionid>
@@ -3377,14 +3379,14 @@
             <question>
                 <questionid>240</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[11. A 51-year-old man has weakness of his left arm. The MRI of the cervical region is most consistent with which diagnosis? ]]></text>
+                <text><![CDATA[A 51-year-old man has weakness of his left arm. The MRI of the cervical region is most consistent with which diagnosis? ]]></text>
                 <option><![CDATA[Plexiform neurofibroma]]></option>
                 <option><![CDATA[Normal scan, suspect right lacunar infarct]]></option>
                 <option><![CDATA[Brachial neuritis (Parsonage-Turner syndrome)]]></option>
                 <option><![CDATA[Cervical radiculopathy]]></option>
                 <option><![CDATA[Acute inflammatory demyelinating polyneuropathy]]></option>
                 <strokeanswer>A</strokeanswer>
-                <rationaletext><![CDATA[11. The images show large plexiform neurofibromas, which are enlarged nerve roots that enhance postgadolinium, which develop on nerve roots. These may be associated neurofibromatosis. Brachial neuritis may show enhancement of the plexus and peripheral nerves after gadolinium is administered but should not be hypertrophied. Acute inflammatory demyelinating polyneuropathy and brachial neuritis may show enhancement of the peripheral roots without enlargements. Cervical radiculopathy are generally not associated with abnormal enlargement of nerves.]]></rationaletext>
+                <rationaletext><![CDATA[The images show large plexiform neurofibromas, which are enlarged nerve roots that enhance postgadolinium, which develop on nerve roots. These may be associated neurofibromatosis. Brachial neuritis may show enhancement of the plexus and peripheral nerves after gadolinium is administered but should not be hypertrophied. Acute inflammatory demyelinating polyneuropathy and brachial neuritis may show enhancement of the peripheral roots without enlargements. Cervical radiculopathy are generally not associated with abnormal enlargement of nerves.]]></rationaletext>
                 <imagepath>figure_11</imagepath>
             </question>
             <question>
@@ -3650,7 +3652,7 @@
             <question>
                 <questionid>260</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[This EEG pattern can be seen in all of the following clinical scenarios, except:]]></text>
+                <text><![CDATA[This EEG pattern can be seen in all of the following clinical scenarios, <b>except</b>:]]></text>
                 <option><![CDATA[Hypoxia-ischemic encephalopathy]]></option>
                 <option><![CDATA[Phenobarbital administration to lower intracranial pressure in a traumatic brain injury patient with diffuse axonal injury]]></option>
                 <option><![CDATA[Severe hypothermia]]></option>
@@ -4054,7 +4056,7 @@
                 <option><![CDATA[Of prolonged epileptiform discharges on EEG, 50% are not associated with visible clinical changes.]]></option>
                 <strokeanswer>D</strokeanswer>
                 <rationaletext><![CDATA[   Neonatal seizures are never generalized as tonic-clonic seizures because of the incomplete myelination of the neonatal brain. Many newborns who are suspected of having generalized tonic-clonic seizures are actually jittery. A way to distinguish jitteriness from a seizure is to observe whether or not touch, noise, or motion provokes the behavior (occurs with jitteriness), or whether the movement can be suppressed by gently holding the part of the neonate manifesting the movement.<br>
-                     eonates with hydranencephaly or atelencephalia are capable of generating seizures from either hemisphere or the brainstem. Because of the lack of myelination in the neonate, seizures may be confined to the brainstem and likewise are unable to generate secondary bilateral synchrony.
+                     Neonates with hydranencephaly or atelencephalia are capable of generating seizures from either hemisphere or the brainstem. Because of the lack of myelination in the neonate, seizures may be confined to the brainstem and likewise are unable to generate secondary bilateral synchrony.
                      n an otherwise normal full-term baby who is alert and responsive, focal clonic seizures indicate a cerebral infarction or hemorrhage. These seizures usually involve one or both limbs on one side of the baby. They do not “march” clinically as the activity cannot spread through the motor cortex with incomplete myelination.<br>
                      Neonates have a wide variety of seizure patterns and most are poorly organized or difficult to distinguish from normal activity. Fifty percent of prolonged epileptiform discharges seen on EEG are not associated with any clinical changes in the neonate.]]></rationaletext>
             </question>
@@ -4109,7 +4111,7 @@
             <question>
                 <questionid>295</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[All of the following are migraine variants, except:]]></text>
+                <text><![CDATA[All of the following are migraine variants, <b>except</b>:]]></text>
                 <option><![CDATA[Cyclic vomiting]]></option>
                 <option><![CDATA[Benign paroxysmal vertigo]]></option>
                 <option><![CDATA[Recurrent syncope]]></option>
@@ -4133,7 +4135,7 @@
             <question>
                 <questionid>297</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[You are called to the nursery to evaluate a hypotonic newborn. On arrival, you note that the newborn is minimally responsive, with severe hypotonia, arthrogryposis, and dysmorphisms, including a pear-shaped head, excessive skin folds of his neck, a wide anterior fontanelle, and camptodactyly. His reflexes are absent. Examination of the eyes reveals bilateral cataracts and optic atrophy. All of the following is true about this syndrome, except:]]></text>
+                <text><![CDATA[You are called to the nursery to evaluate a hypotonic newborn. On arrival, you note that the newborn is minimally responsive, with severe hypotonia, arthrogryposis, and dysmorphisms, including a pear-shaped head, excessive skin folds of his neck, a wide anterior fontanelle, and camptodactyly. His reflexes are absent. Examination of the eyes reveals bilateral cataracts and optic atrophy. All of the following is true about this syndrome, <b>except</b>:]]></text>
                 <option><![CDATA[It is a peroxisomal disorder.]]></option>
                 <option><![CDATA[Most children with this disorder will develop seizures early in life that are difficult to control.]]></option>
                 <option><![CDATA[Other phenotypes include Refsum disease and adrenoleukodystrophy.]]></option>
@@ -4169,7 +4171,7 @@
             <question>
                 <questionid>300</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[All of the following are true about congenital myotonic dystrophy, except:]]></text>
+                <text><![CDATA[All of the following are true about congenital myotonic dystrophy, <b>except</b>:]]></text>
                 <option><![CDATA[It is an autosomal recessive disorder.]]></option>
                 <option><![CDATA[More than 50 DNA triplet repeats on chromosome 19.]]></option>
                 <option><![CDATA[There is a high incidence of polyhydramnios during pregnancy.]]></option>
@@ -4279,7 +4281,7 @@
                 <option><![CDATA[GM1 gangliosidosis type II]]></option>
                 <option><![CDATA[Metachromatic leukodystrophy]]></option>
                 <strokeanswer>A</strokeanswer>
-                <rationaletext><![CDATA[   Niemann-Pick disease is transmitted by autosomal-recessive inheritance and is caused by a deficit in sphingomyelinase. E   ]]></rationaletext>
+                <rationaletext><![CDATA[   Niemann-Pick disease is transmitted by autosomal-recessive inheritance and is caused by a deficit in sphingomyelinase.]]></rationaletext>
             </question>
             <question>
                 <questionid>309</questionid>
@@ -4402,9 +4404,9 @@
                 <option><![CDATA[Developmental disturbances in language before the age of 8 displace language to the right hemisphere but this displacement does not occur in older children.]]></option>
                 <option><![CDATA[The most common cause of speech delay is autism.]]></option>
                 <option><![CDATA[Down syndrome is the most common chromosomal cause of mental retardation in boys]]></option>
-                <strokeanswer>	A</strokeanswer>
+                <strokeanswer>A</strokeanswer>
                 <rationaletext><![CDATA[Children with developmental delay often undergo an MRI and chromosomal analysis as initial screening tests, though a chromosomal analysis is not necessary if the child clinically does not have any of the following features.
-                    A)	Genitourinary:<br>
+                    <br>A)	Genitourinary:<br>
                     i.	 Ambiguous genitalia<br>
                     ii.	 Polycystic kidney<br>
                     B)	Head and neck:<br>
@@ -4430,15 +4432,14 @@
             <question>
                 <questionid>319</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[You are evaluating a 6-month-old infant who presents with developmental delay. The parents say that at approximately 3 to 4 months, he learned how to roll from front to back and had steady head control. Currently, he has not learned any additional skills and no longer can roll over. The parents also feel that his head control is worse. On examination, you note a cherry red spot on his macula and hepatosplenomegaly. You send serum for hexosaminidase levels and find that there is a deficiency in both hexosaminidase A and B. You diagnose him with Sandhoff disease and counsel the family appropriately. All of the following are included in the differential diagnosis of a cherry red spot on the macula,<b>except</b>:]]></text>
+                <text><![CDATA[You are evaluating a 6-month-old infant who presents with developmental delay. The parents say that at approximately 3 to 4 months, he learned how to roll from front to back and had steady head control. Currently, he has not learned any additional skills and no longer can roll over. The parents also feel that his head control is worse. On examination, you note a cherry red spot on his macula and hepatosplenomegaly. You send serum for hexosaminidase levels and find that there is a deficiency in both hexosaminidase A and B. You diagnose him with Sandhoff disease and counsel the family appropriately. All of the following are included in the differential diagnosis of a cherry red spot on the macula, <b>except</b>:]]></text>
                 <option><![CDATA[Tay-Sachs disease]]></option>
                 <option><![CDATA[Niemann-Pick disease]]></option>
                 <option><![CDATA[Central retinal artery occlusion]]></option>
                 <option><![CDATA[Lafora disease]]></option>
                 <option><![CDATA[Metachromatic leukodystrophy]]></option>
                 <strokeanswer>D</strokeanswer>
-                <rationaletext><![CDATA[A cherry red spot on the macula is due to a relative transparency of the macula and occurs when certain storage disorders cause accumulation of certain storage material within the layers of the retina. The fovea, however, is devoid of these layers, and thus does not have a buildup of this material. Cherry red spots occur in a variety of lipid storage disorders and central retinal artery occlusion. The differential for a cherry red spot includes the following.
-                    A)	Metabolic storage diseases:<br>
+                <rationaletext><![CDATA[A cherry red spot on the macula is due to a relative transparency of the macula and occurs when certain storage disorders cause accumulation of certain storage material within the layers of the retina. The fovea, however, is devoid of these layers, and thus does not have a buildup of this material. Cherry red spots occur in a variety of lipid storage disorders and central retinal artery occlusion. The differential for a cherry red spot includes the following.                    <br>A)	Metabolic storage diseases:<br>
                     i.	 Mucopolysaccharidosis<br>
                     ii.	 Hurler disease<br>
                     iii.	 Tay-Sachs disease<br>
@@ -4512,7 +4513,7 @@
             <question>
                 <questionid>323</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[All of the following statements are true, except:]]></text>
+                <text><![CDATA[All of the following statements are true, <b>except</b>:]]></text>
                 <option><![CDATA[In frontal lobe lesions and suprasegmental spinal cord lesions, there is increased frequency and urgency of urination with reduced bladder capacity.]]></option>
                 <option><![CDATA[Bladder sensation may be preserved in incomplete spinal cord lesions.]]></option>
                 <option><![CDATA[In cauda equine lesions, if the motor nerves are preferentially involved, volitional voiding may be severely compromised, although bladder sensation may be largely preserved.]]></option>
@@ -4585,7 +4586,7 @@
             <question>
                 <questionid>330</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A patient has been found to have an atonic bladder with overflow incontinence. The following are reasonable treatment modalities, except:]]></text>
+                <text><![CDATA[A patient has been found to have an atonic bladder with overflow incontinence. The following are reasonable treatment modalities, <b>except</b>:]]></text>
                 <option><![CDATA[Crede maneuver]]></option>
                 <option><![CDATA[Propantheline bromide]]></option>
                 <option><![CDATA[Intermittent self-catheterization]]></option>
@@ -4597,7 +4598,7 @@
             <question>
                 <questionid>331</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following statements regarding the motor and sensory innervation of sexual organs are true, except:]]></text>
+                <text><![CDATA[The following statements regarding the motor and sensory innervation of sexual organs are true, <b>except</b>:]]></text>
                 <option><![CDATA[The pudendal nerve carries motor and sensory fibers that innervate the penis and clitoris.]]></option>
                 <option><![CDATA[There are three pudendal nerve branches: inferior rectal nerve (innervates external anal sphincter), perineal nerve (supplies external urethral sphincter, bulbocavernosus muscles, other perineal muscles, and skin of the perineum, scrotum, and labia), and dorsal sensory nerve of the penis or clitoris.]]></option>
                 <option><![CDATA[The cell bodies in the sacral cord provide the parasympathetic nerve supply; preganglionic fibers travel with roots S2–S4, join inferior hypogastric plexus, innervate erectile penile and clitoral tissues, smooth muscles in the urethra, seminal vesicles and prostate, and vagina and uterus.]]></option>
@@ -4633,7 +4634,7 @@
             <question>
                 <questionid>333</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 52-year-old man is in the ICU. He presented with neck pain and was found to have an internal carotid artery dissection on subsequent imaging. You suspect a postganglionic lesion. On examination, all of the following are true, except:]]></text>
+                <text><![CDATA[A 52-year-old man is in the ICU. He presented with neck pain and was found to have an internal carotid artery dissection on subsequent imaging. You suspect a postganglionic lesion. On examination, all of the following are true, <b>except</b>:]]></text>
                 <option><![CDATA[Ptosis]]></option>
                 <option><![CDATA[Miosis]]></option>
                 <option><![CDATA[Anhidrosis]]></option>
@@ -4677,7 +4678,7 @@
             <question>
                 <questionid>336</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 54-year-old man presents with proptosis of the right eye. He has a history of sarcoidosis. His examination confirms the proptosis, but he also has pain with movement of his eye, limiting further evaluation. His funduscopic examination is unremarkable. He does, however, have an ophthalmic bruit. All of the following are located with the cavernous sinus, except:]]></text>
+                <text><![CDATA[A 54-year-old man presents with proptosis of the right eye. He has a history of sarcoidosis. His examination confirms the proptosis, but he also has pain with movement of his eye, limiting further evaluation. His funduscopic examination is unremarkable. He does, however, have an ophthalmic bruit. All of the following are located with the cavernous sinus, <b>except</b>:]]></text>
                 <option><![CDATA[Cranial nerve III]]></option>
                 <option><![CDATA[Cranial nerve IV]]></option>
                 <option><![CDATA[Cranial nerve V1]]></option>
@@ -4788,7 +4789,7 @@
             <question>
                 <questionid>344</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following statements are true regarding the anatomy of the vestibular labyrinth, except:]]></text>
+                <text><![CDATA[The following statements are true regarding the anatomy of the vestibular labyrinth, <b>except</b>:]]></text>
                 <option><![CDATA[The hair cells are mounted in the macules and cristae.]]></option>
                 <option><![CDATA[The macula is sensitive to gravitational forces.]]></option>
                 <option><![CDATA[The cristae are not sensitive to angular head acceleration.]]></option>
@@ -4812,7 +4813,7 @@
             <question>
                 <questionid>346</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[When performing cold- and warm-water calorics, the following statements are true, except:]]></text>
+                <text><![CDATA[When performing cold- and warm-water calorics, the following statements are true, <b>except</b>:]]></text>
                 <option><![CDATA[In cold-water calorics, the cupula deviates away from the utricle, producing nystagmus with the fast component directed away from the stimulated ear.]]></option>
                 <option><![CDATA[A burst of nystagmus usually lasting at least 1 minute is induced by 2–3 cc of ice water. In a non-comatose patient, a greater than 20% decrease in the duration of nystagmus suggests an ipsilateral lesion.]]></option>
                 <option><![CDATA[In a comatose patient, only the slow tonic deviation toward the side of stimulation is observed.]]></option>
@@ -4847,12 +4848,12 @@
             <question>
                 <questionid>349</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[Slow conjugate ipsilateral deviation of the eyes interrupted by fast corrective movements in the opposite direction is characteristic is associated with which pathology?]]></text>
+                <text><![CDATA[Slow conjugate ipsilateral deviation of the eyes interrupted by fast corrective movements in the opposite direction is associated with which pathology?]]></text>
                 <option><![CDATA[Imbalance of the labyrinth system]]></option>
                 <option><![CDATA[Semicircular canal damage]]></option>
                 <option><![CDATA[Bilateral symmetric vestibular dysfunction]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[   Semicircular canal damage.    ]]></rationaletext>
+                <rationaletext><![CDATA[   Imbalance of labyrinth system is usually associated with vertigo, nystagmus, and ataxia. Semicircular canal damage is often characterized by vestibular nystagmus: low conjugate ipsilateral deviation of the eyes interrupted by fast corrective movements in the opposite direction. If the eyes try to fixate, it appears to move away from the side of the lesion. If the eyes are closed, then the surrounding seems to spin toward the side of the lesion. Bilateral symmetric vestibular dysfunction are often secondary to ototoxic drugs. Patients usually do not develop vertigo or nystagmus because their tonic vestibular activity remains balanced, but they complain of unsteadiness and vision distortion.    ]]></rationaletext>
             </question>
             <question>
                 <questionid>350</questionid>
@@ -4862,7 +4863,7 @@
                 <option><![CDATA[Semicircular canal damage]]></option>
                 <option><![CDATA[Bilateral symmetric vestibular dysfunction]]></option>
                 <strokeanswer>C</strokeanswer>
-                <rationaletext><![CDATA[   Bilateral symmetric vestibular dysfunction.    ]]></rationaletext>
+                <rationaletext><![CDATA[   Imbalance of labyrinth system is usually associated with vertigo, nystagmus, and ataxia. Semicircular canal damage is often characterized by vestibular nystagmus: low conjugate ipsilateral deviation of the eyes interrupted by fast corrective movements in the opposite direction. If the eyes try to fixate, it appears to move away from the side of the lesion. If the eyes are closed, then the surrounding seems to spin toward the side of the lesion. Bilateral symmetric vestibular dysfunction are often secondary to ototoxic drugs. Patients usually do not develop vertigo or nystagmus because their tonic vestibular activity remains balanced, but they complain of unsteadiness and vision distortion.    ]]></rationaletext>
             </question>
             <question>
                 <questionid>351</questionid>
@@ -4882,12 +4883,12 @@
                 <option><![CDATA[Semicircular canal damage]]></option>
                 <option><![CDATA[Bilateral symmetric vestibular dysfunction]]></option>
                 <strokeanswer>C</strokeanswer>
-                <rationaletext><![CDATA[Bilateral symmetric vestibular dysfunction.]]></rationaletext>
+                <rationaletext><![CDATA[Imbalance of labyrinth system is usually associated with vertigo, nystagmus, and ataxia. Semicircular canal damage is often characterized by vestibular nystagmus: low conjugate ipsilateral deviation of the eyes interrupted by fast corrective movements in the opposite direction. If the eyes try to fixate, it appears to move away from the side of the lesion. If the eyes are closed, then the surrounding seems to spin toward the side of the lesion. Bilateral symmetric vestibular dysfunction are often secondary to ototoxic drugs. Patients usually do not develop vertigo or nystagmus because their tonic vestibular activity remains balanced, but they complain of unsteadiness and vision distortion.]]></rationaletext>
             </question>
             <question>
                 <questionid>353</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are typical etiologies of tinnitus heard by the examiner, except:]]></text>
+                <text><![CDATA[The following are typical etiologies of tinnitus heard by the examiner, <b>except</b>:]]></text>
                 <option><![CDATA[Abnormally patent eustachian tube]]></option>
                 <option><![CDATA[Titanic contractions of the soft palate muscles]]></option>
                 <option><![CDATA[Lesions involving the external ear canal, tympanic membrane, ossicles, or cochlea]]></option>
@@ -4899,7 +4900,7 @@
             <question>
                 <questionid>354</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are all true of a glomus body tumor, except:]]></text>
+                <text><![CDATA[The following are all true of a glomus body tumor, <b>except</b>:]]></text>
                 <option><![CDATA[It is the most common tumor of the middle ear]]></option>
                 <option><![CDATA[It causes conductive hearing loss.]]></option>
                 <option><![CDATA[It may be associated with pulsatile tinnitus.]]></option>
@@ -5110,7 +5111,7 @@
             <question>
                 <questionid>365</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The hypothalamus is made up of 15 nuclei. All are derived from the diencephalon,  except for which nuclei:]]></text>
+                <text><![CDATA[The hypothalamus is made up of 15 nuclei. All are derived from the diencephalon, <b>except</b> for which nuclei:]]></text>
                 <option><![CDATA[Dorsomedial]]></option>
                 <option><![CDATA[Posterior]]></option>
                 <option><![CDATA[Ventromedial]]></option>
@@ -5127,8 +5128,6 @@
         <chapterno>17</chapterno>
         <title>Headache, Neuro-Oncology, and Transplant Neurology</title>
         <questions>
-            
-            
             
             <question>
                 <questionid>366</questionid>
@@ -5160,7 +5159,7 @@
             <question>
                 <questionid>367</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[An 18-year-old college freshman with history of migraine with visual aura presents to the emergency room with headache and left-sided weakness and dysarthria that lasted for 60 minutes with complete resolution. Currently, the patient has a throbbing headache with phonophobia and photophobia. Her mother suffers from migraine and 4 years ago had an episode in which it was associated with right-sided weakness and numbness and tingling that completely resolved. Her sister also suffers from migraine headaches preceded by zigzag lines. The following are true, except:]]></text>
+                <text><![CDATA[An 18-year-old college freshman with history of migraine with visual aura presents to the emergency room with headache and left-sided weakness and dysarthria that lasted for 60 minutes with complete resolution. Currently, the patient has a throbbing headache with phonophobia and photophobia. Her mother suffers from migraine and 4 years ago had an episode in which it was associated with right-sided weakness and numbness and tingling that completely resolved. Her sister also suffers from migraine headaches preceded by zigzag lines. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[Most common gene mutation is <i>CACNA1A </i> in chromosome 19p13 that codes for alpha-1 subunit of brain-specific VG P/Q-type calcium channel.]]></option>
                 <option><![CDATA[Most common gene mutation is <i>ATP1A2</i> in chromosome 1q21-q23 that codes for the alpha-2 subunit of a sodium/potassium pump.]]></option>
                 <option><![CDATA[This is an autosomal dominant condition.]]></option>
@@ -5172,7 +5171,7 @@
             <question>
                 <questionid>368</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 40-year-old woman with hypertension and BMI of 40 presents to the emergency department with daily headaches for the past 2 months. In the past 2 days she has been experiencing worsening blurry vision and intermittent double vision. She has been taking ibuprofen 400 mg three times a day without effect. She saw her family doctor 1 month ago and was told to lose weight to provide relief of her headache. She has lost 10 lbs without headache improvement. Her neurological examination is normal, except for a blurring of the optic disc margins. CT of the brain is normal. The following are reasonable next steps, except:]]></text>
+                <text><![CDATA[A 40-year-old woman with hypertension and BMI of 40 presents to the emergency department with daily headaches for the past 2 months. In the past 2 days she has been experiencing worsening blurry vision and intermittent double vision. She has been taking ibuprofen 400 mg three times a day without effect. She saw her family doctor 1 month ago and was told to lose weight to provide relief of her headache. She has lost 10 lbs without headache improvement. Her neurological examination is normal, except for a blurring of the optic disc margins. CT of the brain is normal. The following are reasonable next steps, <b>except</b>:]]></text>
                 <option><![CDATA[Obtain MRI and MRV.]]></option>
                 <option><![CDATA[Perform large volume lumbar puncture with measurement of opening and closing pressures.]]></option>
                 <option><![CDATA[Start patient on acetazolamide and send her home with a follow-up at a headache clinic in 1 month.]]></option>
@@ -5220,7 +5219,7 @@
             <question>
                 <questionid>372</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 24-year-old new mother presents to the headache clinic because she has been having daily headaches since she gave birth. She wakes up headache free, but it gradually builds up while she is taking a shower to a pounding “8/10” headache. Laying back down is the only thing that would make her feel better. She had at least three episodes of nausea and vomiting. She wonders what she could do to cure the headache so that she can take care of her new baby. The following are true, except:]]></text>
+                <text><![CDATA[A 24-year-old new mother presents to the headache clinic because she has been having daily headaches since she gave birth. She wakes up headache free, but it gradually builds up while she is taking a shower to a pounding “8/10” headache. Laying back down is the only thing that would make her feel better. She had at least three episodes of nausea and vomiting. She wonders what she could do to cure the headache so that she can take care of her new baby. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[MRI of the brain will show diffuse dural enhancement.]]></option>
                 <option><![CDATA[Headache is common in women with higher body mass index.]]></option>
                 <option><![CDATA[A lumbar puncture (LP) would be diagnostic of low intracranial pressure.]]></option>
@@ -5232,20 +5231,19 @@
             <question>
                 <questionid>373</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 35-year-old woman with a history of focal glomerulosclerosis leading to end-stage renal disease (ESRD) received a kidney transplant 1 year ago. She is brought to the emergency department by her mother because she has been having daily headaches for the past month and she is becoming more and more confused in the past week. That morning she poured orange juice into her coffee instead of milk. Brain MRI shows multiple rim enhancing lesions. The following are true of the suspected diagnosis, except:]]></text>
+                <text><![CDATA[A 35-year-old woman with a history of focal glomerulosclerosis leading to end-stage renal disease (ESRD) received a kidney transplant 1 year ago. She is brought to the emergency department by her mother because she has been having daily headaches for the past month and she is becoming more and more confused in the past week. That morning she poured orange juice into her coffee instead of milk. Brain MRI shows multiple rim enhancing lesions. The following are true of the suspected diagnosis, <b>except</b>:]]></text>
                 <option><![CDATA[Epstein-Barr virus (EBV) causes monoclonal transformation of B-lymphocytes.]]></option>
                 <option><![CDATA[Intensity of the immunosuppressive regiment is a risk factor.]]></option>
                 <option><![CDATA[Association with EBV is shown by in situ hybridization, but cells are positive only 10% of the time.]]></option>
                 <option><![CDATA[Treatment is with combination of antiviral therapy, reduced immunosuppression, and lymphoma therapy with chemotherapy and/or radiation therapy.]]></option>
                 <option><![CDATA[Avoid steroids.]]></option>
                 <strokeanswer>C</strokeanswer>
-                <rationaletext><![CDATA[   This patient most likely has posttransplant lymphoproliferative disease (PTLD) resulting from chronic immunosuppression and activation of Epstein-Barr virus (EBV) infection. EBV causes monoclonal transformation of B-lymphocytes. Association with<br>
-                    EBV is shown by in situ hybridization where cells are typically positive in more than 85% of the cases. Lesions are acutely sensitive to steroids, also called ghost tumor, so it should be avoided if possible before diagnostic tests are completed.    ]]></rationaletext>
+                <rationaletext><![CDATA[   This patient most likely has posttransplant lymphoproliferative disease (PTLD) resulting from chronic immunosuppression and activation of Epstein-Barr virus (EBV) infection. EBV causes monoclonal transformation of B-lymphocytes. Association with EBV is shown by in situ hybridization where cells are typically positive in more than 85% of the cases. Lesions are acutely sensitive to steroids, also called ghost tumor, so it should be avoided if possible before diagnostic tests are completed.    ]]></rationaletext>
             </question>
             <question>
                 <questionid>374</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 35-year-old man presents with worsening vision in the past 6 months. He is also having headaches that are worse when he gets up in the morning and when he bends down to tie his shoes. He has lost 30 lbs in the past 3 months because everything tastes bland. On examination, his right eye has papilledema and his left eye is 6/20 acuity. The following are true, except:]]></text>
+                <text><![CDATA[A 35-year-old man presents with worsening vision in the past 6 months. He is also having headaches that are worse when he gets up in the morning and when he bends down to tie his shoes. He has lost 30 lbs in the past 3 months because everything tastes bland. On examination, his right eye has papilledema and his left eye is 6/20 acuity. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[Olfactory groove meningioma on the left.]]></option>
                 <option><![CDATA[Medial third sphenoid wing with meningioma in the right.]]></option>
                 <option><![CDATA[Ipsilateral loss of vision due to optic nerve atrophy from direct compression of the optic nerve.]]></option>
@@ -5257,7 +5255,7 @@
             <question>
                 <questionid>375</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 66-year-old woman who was diagnosed with small cell lung carcinoma 1 year ago and completed chemotherapy was doing well until a few days before presentation when her son noted her to be confused when on the phone. When her son visited her, she complained of a rotting egg smell, after which she was confused for 10 minutes. On interview, she keeps forgetting where she is, despite repeated prompting, and she also does not remember that she had cancer. The following are true, except:]]></text>
+                <text><![CDATA[A 66-year-old woman who was diagnosed with small cell lung carcinoma 1 year ago and completed chemotherapy was doing well until a few days before presentation when her son noted her to be confused when on the phone. When her son visited her, she complained of a rotting egg smell, after which she was confused for 10 minutes. On interview, she keeps forgetting where she is, despite repeated prompting, and she also does not remember that she had cancer. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[EEG showed unilateral temporal lobe slow background activity without epileptic discharged]]></option>
                 <option><![CDATA[Presence of anti-Hu antibody]]></option>
                 <option><![CDATA[Presence of antibodies against voltage-gated potassium channel]]></option>
@@ -5330,7 +5328,7 @@
             <question>
                 <questionid>380</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 30-year-old college dropout with schizophrenia presents for a follow-up because he noted that his breasts are larger and his sex drive is down. He has been taking risperidone depo shots. The following are true of risperidone, except:]]></text>
+                <text><![CDATA[A 30-year-old college dropout with schizophrenia presents for a follow-up because he noted that his breasts are larger and his sex drive is down. He has been taking risperidone depo shots. The following are true of risperidone, <b>except</b>:]]></text>
                 <option><![CDATA[It has the highest D2/5HT2 blockade ratio of the atypical antipsychotics.]]></option>
                 <option><![CDATA[Blockade of dopamine in the tuberoinfundibular pathway leads to hyperprolactenia, decreased libido, gynecomastia, and sexual dysfunction.]]></option>
                 <option><![CDATA[It is not associated with dose-related extrapyramidal symptoms (EPS)]]></option>
@@ -5342,7 +5340,7 @@
             <question>
                 <questionid>381</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 34-year-old healthy woman who presents after being discharged from the emergency department 1 week ago for chest pains, palpitation, and a sense of impending doom. She has persistent sense of nervousness for at least 1 month. She is unable to sleep because she cannot stop thinking about her job, her pet, the leaking faucet, and so on. The following are true of treatment, except:]]></text>
+                <text><![CDATA[A 34-year-old healthy woman who presents after being discharged from the emergency department 1 week ago for chest pains, palpitation, and a sense of impending doom. She has persistent sense of nervousness for at least 1 month. She is unable to sleep because she cannot stop thinking about her job, her pet, the leaking faucet, and so on. The following are true of treatment, <b>except</b>:]]></text>
                 <option><![CDATA[Increasing selective serotonin reuptake inhibitors (SSRI) quickly can precipitate acute anxiety.]]></option>
                 <option><![CDATA[Withdrawal from clonazepam can cause anxiety.]]></option>
                 <option><![CDATA[Benzodiazepine (BZD) is a first-line treatment.]]></option>
@@ -5356,7 +5354,7 @@
             <question>
                 <questionid>382</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 45-year-old writer and mother of three young children feels exhausted from shuttling her kids to various after-school activities and entertaining her 2-year-old at home. Her publisher has also been calling her about the book she is writing, which is due in 48 hours. She decides to take a couple of pills prescribed to her “on-the-go” 4-year-old son. The following are true of the medication and its effects, except:]]></text>
+                <text><![CDATA[A 45-year-old writer and mother of three young children feels exhausted from shuttling her kids to various after-school activities and entertaining her 2-year-old at home. Her publisher has also been calling her about the book she is writing, which is due in 48 hours. She decides to take a couple of pills prescribed to her “on-the-go” 4-year-old son. The following are true of the medication and its effects, <b>except</b>:]]></text>
                 <option><![CDATA[It increases the presynaptic release of catecholamines (dopamine > norepinephrine).]]></option>
                 <option><![CDATA[It may cause tachycardia/bradycardia, mydriasis, change in blood pressure, weight loss, diaphoresis, dyskinesia, and dystonia.]]></option>
                 <option><![CDATA[It may cause seizure, cardiac dysrhythmias, and myocardial infarction.]]></option>
@@ -5383,7 +5381,7 @@
             <question>
                 <questionid>384</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 9-year-old boy with normal intelligence and development is brought in by his mother for strange behaviors. She has noted eye blinking that was more than usual, then tilting his head to the right, and grimacing. More recently, he had at least four episodes of outburst in which he shouted out expletives. During the interview, you noticed that the patient cannot seem to sit still. He says he can suppress the movements and the outbursts but eventually he has to let them out. The following are true of his condition, except:]]></text>
+                <text><![CDATA[A 9-year-old boy with normal intelligence and development is brought in by his mother for strange behaviors. She has noted eye blinking that was more than usual, then tilting his head to the right, and grimacing. More recently, he had at least four episodes of outburst in which he shouted out expletives. During the interview, you noticed that the patient cannot seem to sit still. He says he can suppress the movements and the outbursts but eventually he has to let them out. The following are true of his condition, <b>except</b>:]]></text>
                 <option><![CDATA[It is three times more common in males than females.]]></option>
                 <option><![CDATA[It is believed to be associated with dopamine hyperactivity in the caudate nucleus.]]></option>
                 <option><![CDATA[It has been associated with attention deficit/hyperactivity disorder (ADHD), obsessive-compulsive disorder (OCD), depression, and impulsivity.]]></option>
@@ -5395,7 +5393,7 @@
             <question>
                 <questionid>385</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 21-year-old college student back home from college is brought to the office by her mother because for the past month she has been depressed. She has not been going out with her friends, she sleeps at least 12 hours a day, and all she does is lay in front of the TV in the dark. She says she’s been feeling down since her boyfriend broke up with her. She denies having any suicidal thoughts, but blames herself for the break-up of her relationship. Her mother was treated for depression when she was in her 30s. The following are true, except:]]></text>
+                <text><![CDATA[A 21-year-old college student back home from college is brought to the office by her mother because for the past month she has been depressed. She has not been going out with her friends, she sleeps at least 12 hours a day, and all she does is lay in front of the TV in the dark. She says she’s been feeling down since her boyfriend broke up with her. She denies having any suicidal thoughts, but blames herself for the break-up of her relationship. Her mother was treated for depression when she was in her 30s. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[She most likely has major depressive disorder.]]></option>
                 <option><![CDATA[Start antidepressant treatment.]]></option>
                 <option><![CDATA[Her twin sister has the same risk of having a mood disorder as the general population.]]></option>
@@ -5409,10 +5407,10 @@
                     d) Change in sleep pattern with either insomnia or hypersomnia<br>
                     e) Agitation or retardation (slowing of physical activity, speech, and thinking)<br>
                     f) Fatigue or loss of energy: nearly every day<br>
-                    A. Continuous feelings of worthlessness or excessive or inappropriate guilt<br>
-                    B. Diminished capacity for concentration of indecisiveness<br>
-                    1) Recurrent thoughts of death, recurrent suicidal ideas, attempts, or plans
-                     Depression is nearly two times higher in women than men, and women attempt suicide more frequently, but more men die of suicide than women. There is no monogenetic cause of depression, but having a first-degree relative with mood disorder increases the patient’s risk of a mood disorder. The consensus best treatment is a combination of pharmacotherapy and psychotherapy, depending on patient preference.    ]]></rationaletext>
+                    g) Continuous feelings of worthlessness or excessive or inappropriate guilt<br>
+                    h) Diminished capacity for concentration of indecisiveness<br>
+                    i) Recurrent thoughts of death, recurrent suicidal ideas, attempts, or plans
+                     <br>Depression is nearly two times higher in women than men, and women attempt suicide more frequently, but more men die of suicide than women. There is no monogenetic cause of depression, but having a first-degree relative with mood disorder increases the patient’s risk of a mood disorder. The consensus best treatment is a combination of pharmacotherapy and psychotherapy, depending on patient preference.    ]]></rationaletext>
             </question>
             <question>
                 <questionid>386</questionid>
@@ -5446,7 +5444,7 @@
             <question>
                 <questionid>388</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 35-year-old successful businessman presents to your clinic at the behest of his new wife who is concerned about his recent excessive spending spree and gambling. During the interview he kept standing up and his speech was very rapid and pressured. When his wife finally got to talk, she said he was getting about 2–3 hours of sleep per night, sends e-mails to his business partners that are half finished, and recently bought a new boat, even though they do not live close by any water. She also revealed that he has been treated for depression and his first wife left him because he was having extramarital affairs. You suspect a mood disorder. The following are true, except:]]></text>
+                <text><![CDATA[A 35-year-old successful businessman presents to your clinic at the behest of his new wife who is concerned about his recent excessive spending spree and gambling. During the interview he kept standing up and his speech was very rapid and pressured. When his wife finally got to talk, she said he was getting about 2–3 hours of sleep per night, sends e-mails to his business partners that are half finished, and recently bought a new boat, even though they do not live close by any water. She also revealed that he has been treated for depression and his first wife left him because he was having extramarital affairs. You suspect a mood disorder. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[He has likely experienced periods of depression in his life.]]></option>
                 <option><![CDATA[First-line agents are valproic acid (VPA) and lithium.]]></option>
                 <option><![CDATA[He has bipolar type II disorder.]]></option>
@@ -5466,17 +5464,17 @@
                 <option><![CDATA[He should retire.]]></option>
                 <strokeanswer>B</strokeanswer>
                 <rationaletext><![CDATA[   This patient is in bereavement—depressive symptoms within 2 months of a loved one’s death—and not pathological. Normal bereavement is not associated with:<br>
-                    D. Hallucinations not related to the deceased<br>
-                    E. Excessive guilt unrelated to the death<br>
-                    F. Morbid preoccupation with one’s worthlessness<br>
-                    G. Marked functional impairment<br>
-                    H. Persistent thoughts of death<br>
-                    Marked psychomotor retardation    ]]></rationaletext>
+                    A. Hallucinations not related to the deceased<br>
+                    B. Excessive guilt unrelated to the death<br>
+                    C. Morbid preoccupation with one’s worthlessness<br>
+                    E. Marked functional impairment<br>
+                    F. Persistent thoughts of death<br>
+                    G. Marked psychomotor retardation    ]]></rationaletext>
             </question>
             <question>
                 <questionid>390</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 21-year-old college student on the dean’s list was referred to psychiatry by the college dean because he is in danger of losing his athletic scholarship. He admits to feeling very depressed for the past 2 months, skipping classes because he is not interested in them. He stays in his dorm room most of the time feeling tired and eating junk food. His grades have plummeted to a D average, and he has been suspended from playing football until he gets his grades up to a C average. During the interview, he has poor affect and is very slow moving. He is placed on fluoxetine. Within 2 weeks of taking the antidepressant, the patient starts attending his classes. He manages to talk his professors into letting him retake the exams, which he aces. Not only is he back playing football but he has also joined an a capella group, is rushing for a fraternity, and has signed up to be a big brother. He said he now had lots of energy and needs very little rest. The following are true, except:]]></text>
+                <text><![CDATA[A 21-year-old college student on the dean’s list was referred to psychiatry by the college dean because he is in danger of losing his athletic scholarship. He admits to feeling very depressed for the past 2 months, skipping classes because he is not interested in them. He stays in his dorm room most of the time feeling tired and eating junk food. His grades have plummeted to a D average, and he has been suspended from playing football until he gets his grades up to a C average. During the interview, he has poor affect and is very slow moving. He is placed on fluoxetine. Within 2 weeks of taking the antidepressant, the patient starts attending his classes. He manages to talk his professors into letting him retake the exams, which he aces. Not only is he back playing football but he has also joined an a capella group, is rushing for a fraternity, and has signed up to be a big brother. He said he now had lots of energy and needs very little rest. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[The SSRI was an effective medication for this patient with major depressive disorder.]]></option>
                 <option><![CDATA[The SSRI precipitated a manic episode in the patient.]]></option>
                 <option><![CDATA[The patient most likely has bipolar disorder (BPD).]]></option>
@@ -5488,7 +5486,7 @@
             <question>
                 <questionid>391</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[Whih of the following medications is best at preventing suicide ina depressed patient?]]></text>
+                <text><![CDATA[Which of the following medications is best at preventing suicide in a depressed patient?]]></text>
                 <option><![CDATA[Fluoxetine]]></option>
                 <option><![CDATA[Ativan]]></option>
                 <option><![CDATA[Olanzapine]]></option>
@@ -5513,7 +5511,7 @@
             <question>
                 <questionid>393</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 25-year-old artist cannot take it anymore and presents at her internist because her hands are raw and dry. Every time she touches a door, she has to wash her hands. She gets really afraid that she will catch something if she does not wash her hands immediately. Her anxiety is not alleviated by using hand sanitizers. She spends more and more time washing her hands now that she cannot finish any of her paintings. The following are true of her condition, except:]]></text>
+                <text><![CDATA[A 25-year-old artist cannot take it anymore and presents at her internist because her hands are raw and dry. Every time she touches a door, she has to wash her hands. She gets really afraid that she will catch something if she does not wash her hands immediately. Her anxiety is not alleviated by using hand sanitizers. She spends more and more time washing her hands now that she cannot finish any of her paintings. The following are true of her condition, <b>except</b>:]]></text>
                 <option><![CDATA[Structural lesions associated with her symptoms involve the orbitofrontal pathway.]]></option>
                 <option><![CDATA[These patients do not have insight into what they are doing.]]></option>
                 <option><![CDATA[First-line treatment are SSRIs.]]></option>
@@ -5544,13 +5542,13 @@
                 <option><![CDATA[Rapidly progressive dementia]]></option>
                 <option><![CDATA[Vascular dementia]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[   The patient likely has Alzheimer dementia (AD). These patients are usually between the ages of 40 and 90 years.<br>
-                     <i>DSM-IV</i> diagnosis of dementia is characterized by gradual and progressive decline in cognitive function with impairments in recent memory and one additional cognitive domain that is not due to other medical or psychiatric illness, and results in functional impairment socially or occupationally.
-                        The NINCDS-ADRDA dementia criteria:<br>
+                <rationaletext><![CDATA[   The patient likely has Alzheimer's dementia (AD). These patients are usually between the ages of 40 and 90 years.<br>
+                     <i>DSM-IV</i> diagnosis of dementia is characterized by gradual and progressive decline in cognitive function with impairments in recent memory and one additional cognitive domain that is not due to other medical or psychiatric illness, and results in functional impairment socially or occupationally.<br>
+                    The NINCDS-ADRDA dementia criteria:<br>
                     • Probable AD is characterized by onset between 40 and 90 years, having the dementia syndrome established by clinical examination, confirmed with cognitive testing, and having deficits in two or more domains of cognition, progressive decline in memory and other cognitive functions, preserved consciousness, and absence of systemic or other brain disease that accounts for symptoms.<br>
                     • Possible AD includes having a dementia syndrome in the absence of other psychiatric or systemic disorders, but in the presence of a second systemic or brain disorder sufficient to produce a dementia but not considered as the primary cause after careful workup.<br>
                     • Definite AD occurs only when the clinical criteria for probable Alzheimer disease is met and tissue diagnosis by autopsy or biopsy.<br>
-                     Rapidly progressive dementia is characterized by acute to subacute onset of dementia. Vascular dementia is characterized by stepwise worsening of cognitive abilities with associated history of cerebrovascular disease.    ]]></rationaletext>
+                    Rapidly progressive dementia is characterized by acute to subacute onset of dementia. Vascular dementia is characterized by stepwise worsening of cognitive abilities with associated history of cerebrovascular disease.    ]]></rationaletext>
             </question>
             <question>
                 <questionid>396</questionid>
@@ -5579,7 +5577,7 @@
             <question>
                 <questionid>398</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 56-year-old children’s book illustrator and writer is noted to have problems finding names for people he met and for objects. His latest book is notable for having only verbs. His speech continues to be fluent but his problems with naming is worsening. He stops drawing emotive illustrations and starts making intricate abstract illustrations. Eventually, he stops writing and drawing altogether. He spent a lot of time playing solitaire on his computer and going to a thrift shop to buy rose pins for his wife. The following are true, except:]]></text>
+                <text><![CDATA[A 56-year-old children’s book illustrator and writer is noted to have problems finding names for people he met and for objects. His latest book is notable for having only verbs. His speech continues to be fluent but his problems with naming is worsening. He stops drawing emotive illustrations and starts making intricate abstract illustrations. Eventually, he stops writing and drawing altogether. He spent a lot of time playing solitaire on his computer and going to a thrift shop to buy rose pins for his wife. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[He has a focal neurological disease.]]></option>
                 <option><![CDATA[He eventually developed prosopagnosia.]]></option>
                 <option><![CDATA[MRI will show symmetric temporal lobe atrophy.]]></option>
@@ -5592,7 +5590,7 @@
             <question>
                 <questionid>399</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 55-year-old truck driver was fired because the last two times he went out on an assignment he was 2 days late. He did not offer an explanation, except that he decided on a whim to take the scenic route. His wife has also noticed that he has been saying very hurtful things to his children. He started wearing sunglasses while indoors because he said it is too bright and there are too many things going on around him. He prefers to be up at night when everyone is asleep. More recently, he is unable to complete multiple tasks, such as going to the store to pick up milk and bread, paying the bills, and picking up his medication prescription. On examination he is apathetic and indifferent. He is wearing dark glasses. Neurological examination reveals brisk jaw jerk reflex and present snout reflex. He scores 27/30 on the mini mental state examination, missing one point on the name of the county, season, and spelling. He tends to answer questions with one or two words. Motor examination reveals subtle muscle atrophy and weakness in the upper extremities. All of the following are true, except:]]></text>
+                <text><![CDATA[A 55-year-old truck driver was fired because the last two times he went out on an assignment he was 2 days late. He did not offer an explanation, except that he decided on a whim to take the scenic route. His wife has also noticed that he has been saying very hurtful things to his children. He started wearing sunglasses while indoors because he said it is too bright and there are too many things going on around him. He prefers to be up at night when everyone is asleep. More recently, he is unable to complete multiple tasks, such as going to the store to pick up milk and bread, paying the bills, and picking up his medication prescription. On examination he is apathetic and indifferent. He is wearing dark glasses. Neurological examination reveals brisk jaw jerk reflex and present snout reflex. He scores 27/30 on the mini mental state examination, missing one point on the name of the county, season, and spelling. He tends to answer questions with one or two words. Motor examination reveals subtle muscle atrophy and weakness in the upper extremities. All of the following are true, <b>except</b>:]]></text>
                 <option><![CDATA[Accounts for 25% of all the cases of frontotemporal lobar degeneration]]></option>
                 <option><![CDATA[Atrophy of the frontal and temporal lobes, with greater atrophy in right dorsolateral prefrontal cortex and left premotor cortex]]></option>
                 <option><![CDATA[Associated with amyotrophic lateral sclerosis (ALS)]]></option>
@@ -5616,7 +5614,7 @@
             <question>
                 <questionid>401</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[A 44-year-old vegan is admitted because he has been having progressively worse memory and balance. He cannot do his crosswords and yoga anymore. He thinks he has Alzheimer disease because his father does. He was fired from his job as a caterer because he cannot follow new recipes. He has also noticed decreased sensation on his hands. His examination is notable for decreased vibratory sense, unsteady gait, presence of Rhomberg sign, and diffuse hyperreflexia but absent ankle jerk. The following are true, except:]]></text>
+                <text><![CDATA[A 44-year-old vegan is admitted because he has been having progressively worse memory and balance. He cannot do his crosswords and yoga anymore. He thinks he has Alzheimer disease because his father does. He was fired from his job as a caterer because he cannot follow new recipes. He has also noticed decreased sensation on his hands. His examination is notable for decreased vibratory sense, unsteady gait, presence of Rhomberg sign, and diffuse hyperreflexia but absent ankle jerk. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[Lab finding is significant for anemia with high mean corpuscular volume.]]></option>
                 <option><![CDATA[Atrophic glossitis is present.]]></option>
                 <option><![CDATA[Treatment is with oral vitamin replacement therapy.]]></option>
@@ -5640,7 +5638,7 @@
             <question>
                 <questionid>403</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[An 86-year-old woman admitted to the hospital for resection of a neck tumor. She initially has waxing and waning mental status after surgery, but this gradually improves after 1 week. Then she is noted to be repeating her answers when asked a question, or echoing the examiner’s questions. On examination, she repeats her answers several times, and she has profound episodic memory difficulty. She fails the Luria alternating hand sequence task. You call the daughter, and she tells you the patient has been increasingly more forgetful in the past 2 years, and more recently had difficulty with her daily activities. She stopped driving 1 year ago because she got lost on her way to the grocery store. The following are true, except:]]></text>
+                <text><![CDATA[An 86-year-old woman admitted to the hospital for resection of a neck tumor. She initially has waxing and waning mental status after surgery, but this gradually improves after 1 week. Then she is noted to be repeating her answers when asked a question, or echoing the examiner’s questions. On examination, she repeats her answers several times, and she has profound episodic memory difficulty. She fails the Luria alternating hand sequence task. You call the daughter, and she tells you the patient has been increasingly more forgetful in the past 2 years, and more recently had difficulty with her daily activities. She stopped driving 1 year ago because she got lost on her way to the grocery store. The following are true, <b>except</b>:]]></text>
                 <option><![CDATA[MRI shows generalized atrophy with more pronounced atrophy in the medial temporal structures.]]></option>
                 <option><![CDATA[Perseveration in the patient is due to focal disease in the ventrolateral prefrontal or orbitofrontal regions.]]></option>
                 <option><![CDATA[Perseveration in the patient is due to neurodegenerative disorder involving prefrontal cortex.]]></option>
@@ -5701,7 +5699,7 @@
             <question>
                 <questionid>407</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following conditions cause acetylcholine release blockade, except:]]></text>
+                <text><![CDATA[The following conditions cause acetylcholine release blockade, <b>except</b>:]]></text>
                 <option><![CDATA[Botulism]]></option>
                 <option><![CDATA[Eaton-Lambert syndrome]]></option>
                 <option><![CDATA[Tick paralysis]]></option>
@@ -5713,7 +5711,7 @@
             <question>
                 <questionid>408</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are all reversible anticholinesterases, except:]]></text>
+                <text><![CDATA[The following are all reversible anticholinesterases, <b>except</b>:]]></text>
                 <option><![CDATA[Carbamates]]></option>
                 <option><![CDATA[Neostigmine]]></option>
                 <option><![CDATA[Pyridostigmine]]></option>
@@ -5725,7 +5723,7 @@
             <question>
                 <questionid>409</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following conditions/medications all increase acetylcholine concentration, except:]]></text>
+                <text><![CDATA[The following conditions/medications all increase acetylcholine concentration, <b>except</b>:]]></text>
                 <option><![CDATA[Edrophonium]]></option>
                 <option><![CDATA[Donepezil]]></option>
                 <option><![CDATA[Organophosphates]]></option>
@@ -5756,7 +5754,7 @@
                 <option><![CDATA[Inhibits alpha-2 presynaptic receptors]]></option>
                 <option><![CDATA[NE reuptake inhibitor]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[Tetrabenazine inhibit of norepinephrine.]]></rationaletext>
+                <rationaletext><![CDATA[Tetrabenazine inhibits the transport of norepinephrine.]]></rationaletext>
             </question>
             <question>
                 <questionid>412</questionid>
@@ -5780,7 +5778,7 @@
                 <option><![CDATA[Inhibits alpha-2 presynaptic receptors]]></option>
                 <option><![CDATA[NE reuptake inhibitor]]></option>
                 <strokeanswer>D</strokeanswer>
-                <rationaletext><![CDATA[Yohimbine is an example of alpha-2 receptor inhibitors.]]></rationaletext>
+                <rationaletext><![CDATA[Yohimbine is an alpha-2 receptor inhibitor.]]></rationaletext>
             </question>
             <question>
                 <questionid>414</questionid>
@@ -5797,7 +5795,7 @@
             <question>
                 <questionid>415</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[What is the effect ofreserpine on dopamine (DA) synthesis?]]></text>
+                <text><![CDATA[What is the effect of reserpine on dopamine (DA) synthesis?]]></text>
                 <option><![CDATA[Selectively binds to the D1 and D4 receptors]]></option>
                 <option><![CDATA[Increases the release of DA and norepinephrine (NE) both centrally and peripherally; decreases reuptake of DA]]></option>
                 <option><![CDATA[Decreases the metabolism of DA]]></option>
@@ -5852,7 +5850,7 @@
                 <option><![CDATA[Blocks the reuptake of DA and norepinephrine (NE)]]></option>
                 <option><![CDATA[Prevents vesicle storage of DA, epinephrine, and 5-HT both centrally and peripherally]]></option>
                 <strokeanswer>A</strokeanswer>
-                <rationaletext><![CDATA[Clozapine selectively bins to the D1 and D4 receptors.]]></rationaletext>
+                <rationaletext><![CDATA[Clozapine selectively binds to the D1 and D4 receptors.]]></rationaletext>
             </question>
             <question>
                 <questionid>420</questionid>
@@ -6056,7 +6054,7 @@
                 <option><![CDATA[Examples of excitatory neurotransmitters include glutamate, cystic acid, and homocysteic acid.]]></option>
                 <option><![CDATA[Examples of inhibitory acid include GABA, glycine, taurine, aspartate, and beta-alanine.]]></option>
                 <strokeanswer>E</strokeanswer>
-                <rationaletext><![CDATA[Amino acids (such as glutamate and GABA), peptides (such as vasopressin, somatostatin, and neurotensin), and monoamines (such as dopamine, norepinephrine and acetylcholine) are the three major categories of neurotransmitters. The major neurotransmitters of the brain are glutamate and GABA. The peripheral nervous system has only two neurotransmitters: acetylcholine and norepinephrine. Examples of excitatory neurotransmitters include glutamate, cystic acid, and homocysteic acid. Examples of inhibitory acid include GABA, glycine, taurine, and -alanine. Aspartate is an excitatory neurotransmitter, not inhibitory.]]></rationaletext>
+                <rationaletext><![CDATA[Amino acids (such as glutamate and GABA), peptides (such as vasopressin, somatostatin, and neurotensin), and monoamines (such as dopamine, norepinephrine and acetylcholine) are the three major categories of neurotransmitters. The major neurotransmitters of the brain are glutamate and GABA. The peripheral nervous system has only two neurotransmitters: acetylcholine and norepinephrine. Examples of excitatory neurotransmitters include glutamate, cystic acid, and homocysteic acid. Examples of inhibitory acid include GABA, glycine, taurine, and beta-alanine. Aspartate is an excitatory neurotransmitter, not inhibitory.]]></rationaletext>
             </question>
             <question>
                 <questionid>438</questionid>
@@ -6180,7 +6178,7 @@
             <question>
                 <questionid>447</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are all examples of autosomal recessive ataxias, except:]]></text>
+                <text><![CDATA[The following are all examples of autosomal recessive ataxias, <b>except</b>:]]></text>
                 <option><![CDATA[Dopa-responsive dystonia and parkinsonism]]></option>
                 <option><![CDATA[Friedreich ataxia]]></option>
                 <option><![CDATA[Ataxia with isolated vitamin E deficiency]]></option>
@@ -6192,7 +6190,7 @@
             <question>
                 <questionid>448</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following dystonic conditions can have a good response to levodopa, except:]]></text>
+                <text><![CDATA[The following dystonic conditions can have a good response to levodopa, <b>except</b>:]]></text>
                 <option><![CDATA[DYT5a dystonia due to <i>GCH1</i> mutation]]></option>
                 <option><![CDATA[DYT5b dystonia due to tyrosine hydroxylase mutation]]></option>
                 <option><![CDATA[DYT1 dystonia]]></option>
@@ -6204,19 +6202,19 @@
             <question>
                 <questionid>449</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are true of genetic disorders that cause stroke, except:]]></text>
-                <option><![CDATA[Of mitochondrial encephalomyopathy, lactic acidosis, and stroke-like symptoms (MELAS) cases, 80% are due to a single mutation in the <i>tRNALEU</i> gene.]]></option>
+                <text><![CDATA[The following are true of genetic disorders that cause stroke, <b>except</b>:]]></text>
+                <option><![CDATA[Of mitochondrial encephalomyopathy, lactic acidosis, and stroke-like symptoms (MELAS) cases, 80% are due to a single mutation in the <i>tRNA<sup>LEU</sup></i> gene.]]></option>
                 <option><![CDATA[Fabry disease, like most storage disorders, is autosomal recessive, caused by mutations in the <b>alpha</b>-galactosidase A gene. Patients who present with stroke may also have painful neuropathy and renal disease.]]></option>
                 <option><![CDATA[Missense mutation in epidermal growth factor-like repeats in the <i>NOTCH3</i> gene cause cerebral autosomal dominant arteriopathy with subcortical infarcts and leukoencephalopathy (CADASIL).]]></option>
                 <option><![CDATA[Brain MRI can detect white matter abnormalities in CADASIL long before symptomatic stroke occurs.]]></option>
                 <option><![CDATA[Mutation in the <i>COL4A1</i> gene, which encodes for procollagen type IV <b>alpha1</b>, has been associated with autosomal-dominant small vessel disease and hemorrhagic stroke.]]></option>
                 <strokeanswer>B</strokeanswer>
-                <rationaletext><![CDATA[Fabry disease, like most storage disorders, is an X-linked disorder, caused by mutations in the <i><b>alpha</b>-galactosidase A<i> gene. Patients who present with stroke may also have painful neuropathy and renal disease. Of MELAS cases, 80% are due to a single mutation in the <i>tRNALEU</i> gene. Missense mutation in epidermal growth factor-like repeats in the <i>NOTCH3</i> gene cause CADASIL. Brain MRI can detect white matter abnormalities in CADASIL long before symptomatic stroke occurs. Mutation in the COL4A1 gene, which encodes for procollagen type IV <i>alpha1</i>, has been associated with autosomal dominant small vessel disease and hemorrhagic stroke]]></rationaletext>
+                <rationaletext><![CDATA[Fabry disease, like most storage disorders, is an X-linked disorder, caused by mutations in the <i><b>alpha</b>-galactosidase A</i> gene. Patients who present with stroke may also have painful neuropathy and renal disease. Of MELAS cases, 80% are due to a single mutation in the <i>tRNA<sup>LEU</sup></i> gene. Missense mutation in epidermal growth factor-like repeats in the <i>NOTCH3</i> gene cause CADASIL. Brain MRI can detect white matter abnormalities in CADASIL long before symptomatic stroke occurs. Mutation in the COL4A1 gene, which encodes for procollagen type IV <i>alpha1</i>, has been associated with autosomal dominant small vessel disease and hemorrhagic stroke]]></rationaletext>
             </question>
             <question>
                 <questionid>450</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are true of familial cerebral amyloid angiopathies that are associated with intracranial hemorrhage, except:]]></text>
+                <text><![CDATA[The following are true of familial cerebral amyloid angiopathies that are associated with intracranial hemorrhage, <b>except</b>:]]></text>
                 <option><![CDATA[Familial amyloid angiopathies can be due to mutation in the amyloid precursor protein, cystatin C, or transthyretin.]]></option>
                 <option><![CDATA[Hereditary cerebral hemorrhage with amyloidosis of the Icelandic type, hereditary cerebral hemorrhage with amyloidosis of the Dutch type, and familial amyloid polyneuropathy are all autosomal recessive.]]></option>
                 <option><![CDATA[In familial amyloid polyneuropathy, the neuropathy involves the small fibers and autonomic nerves.]]></option>
@@ -6228,7 +6226,7 @@
             <question>
                 <questionid>451</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following statement is true regarding mitochondrial DNA disorders, except:]]></text>
+                <text><![CDATA[The following statement is true regarding mitochondrial DNA disorders, <b>except</b>:]]></text>
                 <option><![CDATA[Mitochondrial DNA is inherited through the female line.]]></option>
                 <option><![CDATA[Mitochondrial DNA mutations often coexist with normal wild-type mitochondrial DNA in the tissues of patients. Proportions of each vary between patients and between the tissues of each patient.]]></option>
                 <option><![CDATA[Mutant mitochondrial DNA has a high asymptomatic or oligosymptomatic rate.]]></option>
@@ -6240,7 +6238,7 @@
             <question>
                 <questionid>452</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following are true of chronic progressive external ophthalmoplegia (CPEO) and Kearns-Sayre syndrome (KSS), except:]]></text>
+                <text><![CDATA[The following are true of chronic progressive external ophthalmoplegia (CPEO) and Kearns-Sayre syndrome (KSS), <b>except</b>:]]></text>
                 <option><![CDATA[Patients with CPEO and KSS are usually sporadic.]]></option>
                 <option><![CDATA[CPEO and KSS are usually caused by deletion of mitochondrial DNA. These are not present in the blood.]]></option>
                 <option><![CDATA[The diagnosis of CPEO and KSS depends upon muscle biopsy and molecular analysis.]]></option>
@@ -6279,7 +6277,7 @@
                 <text><![CDATA[A 42-year-old woman with a long history of migraines has been experiencing some cognitive problems. She is brought to the emergency department (ED) because of sudden onset left arm weakness and left facial droop. This resolves in 30 minutes. However, the examination showed that she has some problems with attention and she has a spastic gait. For family history, her mother has dementia and a brother recently had a stroke. The MRI performed in the ED shows symmetric T2 hyperintensity in the periventricular and subcortical area, including the temporal pole and external capsule. Which mutation is most likely in this case?]]></text>
                 <option><![CDATA[<i>NOTCH3</i>]]></option>
                 <option><![CDATA[Mitochondrial transfer RNA]]></option>
-                <option><![CDATA[Cystathionine-<b>beta</b>-synthase]]></option>
+                <option><![CDATA[Cystathionine-beta-synthase]]></option>
                 <option><![CDATA[Cystatin C]]></option>
                 <option><![CDATA[<i>CLCNA-1</i>]]></option>
                 <strokeanswer>A</strokeanswer>
@@ -6545,7 +6543,7 @@
             <question>
                 <questionid>476</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[Which characteristicis displayed with Arnold-Chiari type I?]]></text>
+                <text><![CDATA[Which characteristic is displayed with Arnold-Chiari type I?]]></text>
                 <option><![CDATA[Cerebellar hypoplasia]]></option>
                 <option><![CDATA[Encephalocele]]></option>
                 <option><![CDATA[Myelomeningocele]]></option>
@@ -6593,7 +6591,7 @@
             <question>
                 <questionid>480</questionid>
                 <type>SingleSelect</type>
-                <text><![CDATA[The following statements are true of caudal regression syndrome, except:]]></text>
+                <text><![CDATA[The following statements are true of caudal regression syndrome, <b>except</b>:]]></text>
                 <option><![CDATA[20% are infants of diabetic mothers]]></option>
                 <option><![CDATA[It is characterized by dysraphic sacrum and coccyx with atrophic muscle and bone]]></option>
                 <option><![CDATA[Results in delayed sphincter control and walking, back, and leg pain]]></option>
@@ -6766,7 +6764,7 @@
                 <type>SingleSelect</type>
                 <text><![CDATA[Which motor neurons activate both intrafusal and extrafusal muscle fibers?]]></text>
                 <option><![CDATA[Alpha-motor neurons]]></option>
-                <option><![CDATA[Beta-motor neurons]]></option>
+                <option><![CDATA[Beta- motor neurons]]></option>
                 <option><![CDATA[Renshaw cells]]></option>
                 <option><![CDATA[Golgi tendon organs]]></option>
                 <option><![CDATA[Gamma-motor neurons]]></option>
@@ -7385,7 +7383,7 @@
                 <option><![CDATA[Along with the neurohypophysis, it forms the pituitary gland.]]></option>
                 <option><![CDATA[It is derived from the ectodermal diverticulum of the primitive mouth cavity.]]></option>
                 <strokeanswer>C</strokeanswer>
-                <rationaletext>The adenohypophysis is also called Rathke pouch, the remnants of which may give rise to a craniopharyngioma. It is derived from the ectodermal diverticulum of the primitive mouth cavity. The neurohypophysis, and not the adenohypophysis, develops from a ventral evagination of the hypothalamus.<![CDATA[]]></rationaletext>
+                <rationaletext><![CDATA[The adenohypophysis is also called Rathke pouch, the remnants of which may give rise to a craniopharyngioma. It is derived from the ectodermal diverticulum of the primitive mouth cavity. The neurohypophysis, and not the adenohypophysis, develops from a ventral evagination of the hypothalamus.]]></rationaletext>
             </question>
             <question>
                 <questionid>543</questionid>
@@ -7882,7 +7880,7 @@
                 <option><![CDATA[Vascular dementia]]></option>
                 <option><![CDATA[Creutzfeldt-Jakob disease]]></option>
                 <strokeanswer></strokeanswer>
-                <rationaletext><![CDATA[The description describes a Pick body. They are found in fronto-temporal dementia. Pick bodies are spherical, well-circumscribed neuronal inclusions that are slightly basophilic on staining found in cortical layers II and III, hippocampus, and amygdala. Lewy body is found in Lewy body dementia. It is a cytoplasmic inclusion found in the limbic region, substantia nigra, and neocortex. Amyloid plaques and neurofibrillary tangles are classically found in Alzheimer’s disease. Amyloid plaques are extracellular and stain for -amyloid. Neurofibrillary tangles are faintly basophilic and are composed of hyperphosphorlyated tau protein in paired helical filaments. Vascular dementia will have extensive microvascular hemorrhages and/or infarctions on neuro-imaging in the setting of progressive cognitive decline following a stroke. PrP is a membrane-bound protein that is mutated in Creutzfeldt-Jakob disease.]]></rationaletext>
+                <rationaletext><![CDATA[The description describes a Pick body. They are found in fronto-temporal dementia. Pick bodies are spherical, well-circumscribed neuronal inclusions that are slightly basophilic on staining found in cortical layers II and III, hippocampus, and amygdala. Lewy body is found in Lewy body dementia. It is a cytoplasmic inclusion found in the limbic region, substantia nigra, and neocortex. Amyloid plaques and neurofibrillary tangles are classically found in Alzheimer’s disease. Amyloid plaques are extracellular and stain for beta-amyloid. Neurofibrillary tangles are faintly basophilic and are composed of hyperphosphorlyated tau protein in paired helical filaments. Vascular dementia will have extensive microvascular hemorrhages and/or infarctions on neuro-imaging in the setting of progressive cognitive decline following a stroke. PrP is a membrane-bound protein that is mutated in Creutzfeldt-Jakob disease.]]></rationaletext>
             </question>
             
             <question>
