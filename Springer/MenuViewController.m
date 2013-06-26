@@ -252,13 +252,11 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
 //    [self.view addSubview:customRightBar];
 //    self.navigationItem.title=@"Springer Quiz";
     
-    customRightBar = [[CustomRightBarItem alloc] initWithFrame:CGRectMake(0, 0, 123, 44)];
-    UIBarButtonItem *btnBar2 = [[UIBarButtonItem alloc] initWithCustomView:customRightBar];
-    self.navigationItem.rightBarButtonItem = btnBar2;
+   
     
     
     lblTitle=[[UILabel alloc]initWithFrame:CGRectMake(100, 0, 600, 44)];
-    lblTitle.text=@"Ultimate Q&A Review for the Neurology Boards";
+    lblTitle.text=@"Ultimate Q&A Review for Neurology Boards";
     lblTitle.textAlignment=UITextAlignmentCenter;
     lblTitle.backgroundColor=[UIColor clearColor];
    
@@ -266,11 +264,52 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
     lblTitle.font = FONT_Helvetica_bold_20;
     lblTitle.shadowColor = [UIColor blackColor];
     lblTitle.shadowOffset = CGSizeMake(0, -1);
-    
+    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        lblTitle.Frame=CGRectMake(10, 0, 300, 60);
+        lblTitle.numberOfLines=2;
+        [self.view addSubview:lblTitle];
+        customRightBar = [[CustomRightBarItem alloc] initWithFrame:CGRectMake(0, 0, 123, 44)];
+        UIButton *btnShare=[UIButton buttonWithType:UIButtonTypeRoundedRect];
+        btnShare.frame=CGRectMake(10, 7, 34, 34) ;
+        [btnShare addTarget:self action:@selector(onIphonShare) forControlEvents:UIControlEventTouchUpInside];
+        btnShare.exclusiveTouch = YES;
+
+        [customRightBar addSubview:btnShare];
+        
+        UIBarButtonItem *btnBar2 = [[UIBarButtonItem alloc] initWithCustomView:customRightBar];
+        self.navigationItem.rightBarButtonItem = btnBar2;
+    }
+    else{
+        customRightBar = [[CustomRightBarItem alloc] initWithFrame:CGRectMake(0, 0, 123, 44)];
+        UIBarButtonItem *btnBar2 = [[UIBarButtonItem alloc] initWithCustomView:customRightBar];
+        self.navigationItem.rightBarButtonItem = btnBar2;
     self.navigationItem.titleView=lblTitle;
+    }
     
 }
 
+-(void)onIphonShare
+{
+    NSLog(@"iphone");
+    UIActionSheet *aac = [[UIActionSheet alloc] initWithTitle:@"How many?"
+                                                     delegate:self
+                                            cancelButtonTitle:nil
+                                       destructiveButtonTitle:nil
+                                            otherButtonTitles:nil];
+
+    [aac addButtonWithTitle:@"Facebook"];
+    [aac addButtonWithTitle:@"Twitter"];
+    [aac addButtonWithTitle:@"Linked In"];
+    [aac addButtonWithTitle:@"Pinterest"];
+    [aac addButtonWithTitle:@"Google +"];
+    [aac addButtonWithTitle:@"Cancle"];
+    
+    [aac showInView:self.view];
+    [aac setBounds:CGRectMake(0,0,320, 464)];
+  
+    
+}
 -(void)postToPinterest
 {
     NSString *htmlString = [self generatePinterestHTML];
@@ -435,21 +474,57 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
 -(IBAction)onBrowseTapped:(id)sender
 {
     
-    CreateBrouseViewController  *createBrouseViewController = [[CreateBrouseViewController alloc] initWithNibName:@"CreateBrouseViewController" bundle:nil];
+    CreateBrouseViewController  *createBrouseViewController;
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        createBrouseViewController = [[CreateBrouseViewController alloc] initWithNibName:@"CreateBrouseViewController_iPhone5" bundle:nil];
+    }
+    else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        createBrouseViewController = [[CreateBrouseViewController alloc] initWithNibName:@"CreateBrouseViewController_iPhone" bundle:nil];
+    }
+    else
+    {
+        createBrouseViewController = [[CreateBrouseViewController alloc] initWithNibName:@"CreateBrouseViewController" bundle:nil];
+    }
     // self.navigationController.navigationBarHidden = NO;
     [self.navigationController pushViewController:createBrouseViewController animated:YES];
 }
 
 -(IBAction)onQuizTapped:(id)sender
 {
-    CreateQuizViewController  *createQuizViewController = [[CreateQuizViewController alloc] initWithNibName:@"CreateQuizViewController_iPad" bundle:nil];
+    CreateQuizViewController  *createQuizViewController;
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        createQuizViewController = [[CreateQuizViewController alloc] initWithNibName:@"CreateQuizViewController_iPhone5" bundle:nil];
+    }
+    else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        createQuizViewController = [[CreateQuizViewController alloc] initWithNibName:@"CreateQuizViewController_iPhone" bundle:nil];
+    }
+    else
+    {
+        createQuizViewController = [[CreateQuizViewController alloc] initWithNibName:@"CreateQuizViewController_iPad" bundle:nil];
+    }
     // self.navigationController.navigationBarHidden = NO;
     [self.navigationController pushViewController:createQuizViewController animated:YES];
 }
 
 -(IBAction)onScoreTapped:(id)sender
 {
-    QuizScoreViewController  *quizScoreViewController = [[QuizScoreViewController alloc] initWithNibName:@"QuizScoreViewController_Ipad" bundle:nil];
+    QuizScoreViewController  *quizScoreViewController;
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        quizScoreViewController = [[QuizScoreViewController alloc] initWithNibName:@"QuizScoreViewController_iPhone5" bundle:nil];
+    }
+    else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        quizScoreViewController = [[QuizScoreViewController alloc] initWithNibName:@"QuizScoreViewController_iPhone" bundle:nil];
+    }
+    else
+    {
+        quizScoreViewController = [[QuizScoreViewController alloc] initWithNibName:@"QuizScoreViewController_Ipad" bundle:nil];
+    }
     // self.navigationController.navigationBarHidden = NO;
     [self.navigationController pushViewController:quizScoreViewController animated:YES];
 

@@ -8,5 +8,5 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MenuViewController : UIViewController
+@interface MenuViewController : UIViewController<UIActionSheetDelegate>
 @end

@@ -528,6 +528,50 @@
     [scrollView addSubview:tblQuestionFilter];
     [scrollView addSubview:lblSelectedTopics];
     [scrollView addSubview:tblTopics];
+    
+    //savita.....
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        [imgViewBg setFrame:CGRectMake(0, 0, 320, 548)];
+        [viewBgPatch setFrame:CGRectMake(10,10,300,528)];
+        
+        [scrollView setFrame:CGRectMake(20,21, 280, 450)];
+        [lblQuestionFilter setFrame:CGRectMake(0, 0, 280, 21) ];
+        [tblQuestionFilter setFrame:CGRectMake(0, 28, 280, 205) ];
+        [lblSelectedTopics setFrame:CGRectMake(0, 249, 280, 21) ];
+        [tblTopics setFrame:CGRectMake(0, 277, 280, (41*chapterDbData.count)+41)];
+        float h_ = lblQuestionFilter.frame.size.height+tblQuestionFilter.frame.size.height+lblSelectedTopics.frame.size.height+tblTopics.frame.size.height+35;
+        [scrollView setContentSize:CGSizeMake(280, h_)];
+        
+        [sliderQuestions setFrame:CGRectMake(10,470,280,23)];
+        [lblSelectedQuestions setFrame:CGRectMake(10,460,280,26)];
+        [lblSelectedQuestionsCount setFrame:CGRectMake(291,460,91,26)];
+        [customButton_BnBegin setFrame:CGRectMake(10, 500, 176, 39)];
+        [customButton_BnClear setFrame:CGRectMake(180, 500, 176, 39)];
+        [Title setFrame:CGRectMake(10, 0, 300, 44)];
+    }
+    else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        [imgViewBg setFrame:CGRectMake(0, 0, 320, 480)];
+        [viewBgPatch setFrame:CGRectMake(10,10,300,460)];
+        
+        [scrollView setFrame:CGRectMake(66,66, 637, 727)];
+        [lblQuestionFilter setFrame:CGRectMake(0, 0, 300, 21) ];
+        [tblQuestionFilter setFrame:CGRectMake(0, 28, 637, 205) ];
+        [lblSelectedTopics setFrame:CGRectMake(0, 249, 300, 21) ];
+        [tblTopics setFrame:CGRectMake(0, 277, 637, (41*chapterDbData.count)+41)];
+        float h_ = lblQuestionFilter.frame.size.height+tblQuestionFilter.frame.size.height+lblSelectedTopics.frame.size.height+tblTopics.frame.size.height+35;
+        [scrollView setContentSize:CGSizeMake(637, h_)];
+        
+        [sliderQuestions setFrame:CGRectMake(66,845,280,23)];
+        [lblSelectedQuestions setFrame:CGRectMake(66,808,312,26)];
+        [lblSelectedQuestionsCount setFrame:CGRectMake(291,808,91,26)];
+        [customButton_BnBegin setFrame:CGRectMake(530, 835, 176, 39)];
+        [customButton_BnClear setFrame:CGRectMake(350, 835, 176, 39)];
+        [Title setFrame:CGRectMake(184, 0, 400, 44)];
+    }
+   
+   
 }
 
 -(void)fnChangeTickmarkSizes
@@ -983,12 +1027,13 @@
     [Title setFrame:CGRectMake(184, 0, 400, 44)];
 
     [self fnChangeTickmarkSizes];
+    
 }
 
 -(void)fnRotateLandscape
 {
     //self.view.frame = CGRectMake(0, 0, 1024, 768);
-    
+ 
     [imgViewBg setImage:[UIImage imageNamed:@"Img_View_TextureBg.png"]];
     [imgViewBg setFrame:CGRectMake(0, 0, 1024, 704)];
     [viewBgPatch setFrame:CGRectMake(71,32, 882, 640)];

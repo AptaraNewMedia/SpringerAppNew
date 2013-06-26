@@ -289,6 +289,8 @@
             
             [self.navigationController pushViewController:result animated:YES];
             
+            int totalSubmitedAnswer = 0;
+            
             for (int i=0; i < [objQuizScore.arrCorrectIncorrectAnswers count]; i++) {
                 
                 int val = [[objQuizScore.arrCorrectIncorrectAnswers objectAtIndex:i] intValue];
@@ -297,14 +299,16 @@
                     objQuizScore.intMissedQuestion++;
                 }
                 else if (val == 1) {
+                    totalSubmitedAnswer++;
                     objQuizScore.intcorrectAns++;
                 }
                 else if (val == 2) {
+                    totalSubmitedAnswer++;
                     objQuizScore.intIncorrectAns++;
                 }
             }
             
-            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / objQuizScore.arrCorrectIncorrectAnswers.count ;
+            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer;
 
             result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", objQuizScore.arrCorrectIncorrectAnswers.count];        
             
@@ -337,6 +341,7 @@
             
             [self.navigationController pushViewController:result animated:YES];
             
+            int totalSubmitedAnswer = 0;
             for (int i =0; i< total; i++) {
                 Questions *objQuestion = [questions objectAtIndex:i];
                 
@@ -346,14 +351,16 @@
                     objQuizScore.intMissedQuestion++;
                 }
                 else if (val == 1) {
+                    totalSubmitedAnswer++;
                     objQuizScore.intcorrectAns++;
                 }
                 else if (val == 2) {
+                    totalSubmitedAnswer++;
                     objQuizScore.intIncorrectAns++;
                 }
             }
             
-            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / total ;
+            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer ;
             
             result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", total];
             
@@ -466,6 +473,9 @@
 }
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        return NO;
+    }
    
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fn_Landscape];

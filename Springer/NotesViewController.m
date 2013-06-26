@@ -278,6 +278,9 @@
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        return NO;
+    }
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fn_Landscape];
         return YES;

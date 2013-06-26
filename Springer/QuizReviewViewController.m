@@ -189,6 +189,7 @@ int quizscoreId;
         [result fnSetData:questiondData AndScore:objQuizScore];
         [self.navigationController pushViewController:result animated:YES];
         
+        int totalSubmitedAnswer = 0;
         
         for (int i=0; i < [objQuizScore.arrCorrectIncorrectAnswers count]; i++) {
             
@@ -198,14 +199,16 @@ int quizscoreId;
                 objQuizScore.intMissedQuestion++;
             }
             else if (val == 1) {
+                totalSubmitedAnswer++;
                 objQuizScore.intcorrectAns++;
             }
             else if (val == 2) {
+                totalSubmitedAnswer++;
                 objQuizScore.intIncorrectAns++;
             }
         }
         
-        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / objQuizScore.arrCorrectIncorrectAnswers.count ;
+        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer;
         
         result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", objQuizScore.arrCorrectIncorrectAnswers.count];
         
@@ -453,25 +456,28 @@ int quizscoreId;
 	}
     return UIInterfaceOrientationMaskAll;
 }
--(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
-{
-    
-    
-    if (([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait ) || ([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown ))
-    {
-        [self fn_Portrait];
-        
-    }
-    
-    else if(( [[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeLeft )||([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight ))
-        
-    {
-        [self fn_Landscape];
-        
-    }
-    
-}
+//-(void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+//{
+//    
+//    
+//    if (([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortrait ) || ([[UIDevice currentDevice] orientation] == UIDeviceOrientationPortraitUpsideDown ))
+//    {
+//        [self fn_Portrait];
+//        
+//    }
+//    
+//    else if(( [[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeLeft )||([[UIDevice currentDevice] orientation] == UIDeviceOrientationLandscapeRight ))
+//        
+//    {
+//        [self fn_Landscape];
+//        
+//    }
+//    
+//}
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        return NO;
+    }
     currentOrientaion = interfaceOrientation;
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fn_Landscape];

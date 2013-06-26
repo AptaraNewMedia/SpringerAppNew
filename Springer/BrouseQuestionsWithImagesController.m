@@ -344,11 +344,11 @@
     else {
         if (currentOrientation == 1 || currentOrientation == 2) {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x, tblOptions.frame.origin.y, 768, 1024 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 220);
         }
         else {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x,  tblOptions.frame.origin.y, 1024, 768 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 220);
         }
     }
 
@@ -598,23 +598,23 @@
     if (view_Rationale.hidden) {
         if (currentOrientation == 1 || currentOrientation == 2) {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x, 1024, view_Rationale.frame.size.width, 1024 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 220);
             
         }
         else {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x, 768, view_Rationale.frame.size.width, 768 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 220);
         }
     }
     else {
         if (currentOrientation == 1 || currentOrientation == 2) {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x, view_Rationale.frame.origin.y, 768, 1024 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 690, view_Rationale.frame.size.height - 220);
             
         }
         else {
             view_Rationale.frame = CGRectMake(view_Rationale.frame.origin.x, view_Rationale.frame.origin.y, 1024, 768 - tblOptions.frame.origin.y);
-            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 50);
+            web_View_rational.frame = CGRectMake(35, 10, 954, view_Rationale.frame.size.height - 220);
         }
     }
     

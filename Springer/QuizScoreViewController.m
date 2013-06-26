@@ -201,7 +201,7 @@
     objQuizScore.intIncorrectAns=0;
     objQuizScore.intTotalScore=0;
     
-    
+    int totalSubmitedAnswer = 0;
     for (int i =0; i< total; i++) {
         Questions *objQuestion = [questions objectAtIndex:i];
         
@@ -211,14 +211,16 @@
             objQuizScore.intMissedQuestion++;
         }
         else if (val == 1) {
+            totalSubmitedAnswer++;
             objQuizScore.intcorrectAns++;
         }
         else if (val == 2) {
+            totalSubmitedAnswer++;
             objQuizScore.intIncorrectAns++;
         }
     }
     
-    objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / total ;
+    objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer ;
     
     lblTotalQuestion.text = [NSString stringWithFormat:@"%d", total];
     
@@ -354,6 +356,9 @@
 }
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation {
    
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        return NO;
+    }
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fn_Landscape];
         return YES;
