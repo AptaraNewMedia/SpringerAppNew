@@ -934,6 +934,10 @@
 
 -(BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        return NO;
+    }
+
     currentOrientaion = interfaceOrientation;
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fnRotateLandscape];

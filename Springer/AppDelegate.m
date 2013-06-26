@@ -10,13 +10,11 @@
 #import "DatabaseQueries.h"
 #import "XmlReader.h"
 #import "MenuViewController.h"
-
 #import "InfoViewController.h"
 #import "HelpViewController.h"
 #import "NotesViewController.h"
 #import "Flurry.h"
 #import "iRate.h"
-
 #import "Notes.h"
 #import "BrouseQuestionSetViewController.h"
 #import "QuestionSetViewController.h"
@@ -49,7 +47,12 @@
     
     
     //
-    if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        MenuViewController *menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController_iPhone5" bundle:nil];
+        self.navigationController = [[UINavigationController alloc] initWithRootViewController:menuViewController];
+    
+    }else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone) {
         MenuViewController *menuViewController = [[MenuViewController alloc] initWithNibName:@"MenuViewController_iPhone" bundle:nil];
         self.navigationController = [[UINavigationController alloc] initWithRootViewController:menuViewController];
         
@@ -61,8 +64,7 @@
     self.window.rootViewController = self.navigationController;
     [self.window makeKeyAndVisible];
     
-    
-    
+        
     if (DEVICE_VERSION > CURRENT_VERSION)
     {
         [self.navigationController.navigationBar setBackgroundImage:[UIImage imageNamed:@"Navigationbar.png"] forBarMetrics:UIBarMetricsDefault];
@@ -229,17 +231,29 @@
 //Info
 - (void) Fn_ShowInfoViewPopup
 {
-    infoViewController=[[InfoViewController alloc] initWithNibName:@"InfoViewController_iPad" bundle:nil];
+     if([UIScreen mainScreen].bounds.size.height == 568.0)
+     {
+         infoViewController=[[InfoViewController alloc] initWithNibName:@"InfoViewController_iPhone5" bundle:nil];
+     }
+     else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+     {
+         infoViewController=[[InfoViewController alloc] initWithNibName:@"InfoViewController_iPhone" bundle:nil];
+     
+     }else
+     {
+        infoViewController=[[InfoViewController alloc] initWithNibName:@"InfoViewController_iPad" bundle:nil];
+     } 
     
-    //[self.window.rootViewController.view addSubview:infoViewController.view];
-    
-    [self.navigationController.visibleViewController.view addSubview:infoViewController.view];
+        //[self.window.rootViewController.view addSubview:infoViewController.view];
+        
+        [self.navigationController.visibleViewController.view addSubview:infoViewController.view];
 
-    self.navigationController.visibleViewController.navigationController.navigationBar.alpha = 0.5;
-    
-    self.navigationController.visibleViewController.navigationController.navigationBar.userInteractionEnabled = NO;
-    
-    [infoViewController shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
+        self.navigationController.visibleViewController.navigationController.navigationBar.alpha = 0.5;
+        
+        self.navigationController.visibleViewController.navigationController.navigationBar.userInteractionEnabled = NO;
+        
+        [infoViewController shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
+     
     
 }
 - (void) Fn_SubInfoViewPopup
@@ -253,7 +267,20 @@
 //Help
 - (void) Fn_ShowHelpViewPopup
 {
-    helpViewController=[[HelpViewController alloc] initWithNibName:@"HelpViewController_iPad" bundle:nil];
+    
+    if([UIScreen mainScreen].bounds.size.height == 568.0)
+    {
+        helpViewController=[[HelpViewController alloc] initWithNibName:@"HelpViewController_iPhone5" bundle:nil];
+        
+    } else if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPhone)
+    {
+        helpViewController=[[HelpViewController alloc] initWithNibName:@"HelpViewController_iPhone" bundle:nil];
+        
+    }else
+    {
+    
+       helpViewController=[[HelpViewController alloc] initWithNibName:@"HelpViewController_iPad" bundle:nil];
+    }
     //    [InfoPopupView shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
     
     //[self.window.rootViewController.view addSubview:helpViewController.view];

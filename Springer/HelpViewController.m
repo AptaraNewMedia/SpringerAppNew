@@ -113,9 +113,9 @@
 -(void)fn_Portrait
 {
     self.view.frame = CGRectMake(0, -44, 768, 1024);
-    
+
     //[view_Help setFrame:CGRectMake(60,100,640,743)];
-   [ ViewAnimation setFrame:CGRectMake(35,123,700,802)];
+    [ ViewAnimation setFrame:CGRectMake(35,123,700,802)];
     [img_bg setFrame:CGRectMake(0,0,700,802)];
     [img_bg setImage:[UIImage imageNamed:@"Img_View_HelpBg_P.png"]];
     [Web_Help setFrame:CGRectMake(0,44,700,763)];
@@ -157,6 +157,7 @@
 -(NSUInteger)supportedInterfaceOrientations
 {
     if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+         
         return NO;
     }
     
@@ -188,6 +189,11 @@
 
 - (BOOL) shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)interfaceOrientation
 {
+    if([UIDevice currentDevice].userInterfaceIdiom==UIUserInterfaceIdiomPhone) {
+        
+        return NO;
+    }
+    
     if(interfaceOrientation==UIInterfaceOrientationLandscapeLeft){
         [self fn_Landscape];
     }
