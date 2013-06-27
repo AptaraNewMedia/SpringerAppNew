@@ -352,12 +352,25 @@
 //    VImageViewController
     VImageViewController=[[ViewImageViewController alloc] initWithNibName:@"ViewImageViewController" bundle:nil];
     [VImageViewController fnSetData:view];
-    [self.window.rootViewController.view addSubview:VImageViewController.view];
-     [VImageViewController shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
+//    [self.window.rootViewController.view addSubview:VImageViewController.view];
+//     [VImageViewController shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
+    
+    
+    [self.navigationController.visibleViewController.view addSubview:VImageViewController.view];
+    
+    self.navigationController.visibleViewController.navigationController.navigationBar.userInteractionEnabled = NO;
+    
+    self.navigationController.visibleViewController.navigationController.navigationBar.alpha = 0.5;
+    
+    [VImageViewController shouldAutorotateToInterfaceOrientation:DEVICE_ORIENTATION];
 }
 
 - (void) Fn_SubZoomImagePopup
 {
+    self.navigationController.visibleViewController.navigationController.navigationBar.userInteractionEnabled = YES;
+    self.navigationController.visibleViewController.navigationController.navigationBar.alpha = 1.0;
+    
+    
     [VImageViewController.view removeFromSuperview];
     
 }
