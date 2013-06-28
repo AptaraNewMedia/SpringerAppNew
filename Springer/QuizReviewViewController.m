@@ -207,8 +207,8 @@ int quizscoreId;
                 objQuizScore.intIncorrectAns++;
             }
         }
-        
-        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer;
+           NSLog(@"%d",objQuizScore.arrCorrectIncorrectAnswers.count);
+        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) /  objQuizScore.arrCorrectIncorrectAnswers.count;
         
         result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", objQuizScore.arrCorrectIncorrectAnswers.count];
         
