@@ -48,7 +48,6 @@
     UIImageView *img_ShareBg;
     UIWebView *webshare;
     UIButton *btn_closeshare;
-    
     CustomRightBarItem *customRightBar;
 //    CustomTitle *lblTitle;
     
@@ -291,25 +290,53 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
 
 -(void)onIphonShare
 {
-    NSLog(@"iphone");
-    UIActionSheet *aac = [[UIActionSheet alloc] initWithTitle:@"How many?"
-                                                     delegate:self
-                                            cancelButtonTitle:nil
-                                       destructiveButtonTitle:nil
-                                            otherButtonTitles:nil];
 
-    [aac addButtonWithTitle:@"Facebook"];
-    [aac addButtonWithTitle:@"Twitter"];
-    [aac addButtonWithTitle:@"Linked In"];
-    [aac addButtonWithTitle:@"Pinterest"];
-    [aac addButtonWithTitle:@"Google +"];
-    [aac addButtonWithTitle:@"Cancle"];
+    NSString *actionSheetTitle = @"share on"; //Action Sheet Title
+    NSString *other1 = @"Facebook";
+    NSString *other2 = @"Twitter";
+    NSString *other3 = @"Linked In";
+     NSString *other4 = @"Pinterest";
+     NSString *other5 = @"Google +";
     
-    [aac showInView:self.view];
-    [aac setBounds:CGRectMake(0,0,320, 464)];
-  
+    NSString *cancelTitle = @"Cancel";
+    UIActionSheet *actionSheet = [[UIActionSheet alloc]
+                                  initWithTitle:actionSheetTitle
+                                  delegate:self
+                                  cancelButtonTitle:cancelTitle
+                                  destructiveButtonTitle:nil
+                                  otherButtonTitles:other1, other2, other3,other4,other5, nil];
+    [actionSheet showInView:self.view];
     
+    
+       
 }
+- (void)actionSheet:(UIActionSheet *)actionSheet clickedButtonAtIndex:(NSInteger)buttonIndex
+{
+    //Get the name of the current pressed button
+    NSString *buttonTitle = [actionSheet buttonTitleAtIndex:buttonIndex];
+    
+    if ([buttonTitle isEqualToString:@"Facebook"]) {
+        [self Bn_Facebook_Tapped:0];
+    }
+    if ([buttonTitle isEqualToString:@"Twitter"]) {
+        [self Bn_Twitter_Tapped:0];
+        
+    }
+    if ([buttonTitle isEqualToString:@"Linked In"]) {
+        [self Bn_Pinterest_Tapped:0];
+        
+    }
+    if ([buttonTitle isEqualToString:@"Pinterest"]) {
+        NSLog(@"Other 3 pressed");
+        [self Bn_linkedin_Tapped:0];
+        
+    }
+    if ([buttonTitle isEqualToString:@"Google +"]) {
+    [self GooglePlus_tapped:0 ];
+    }
+      
+}
+
 -(void)postToPinterest
 {
     NSString *htmlString = [self generatePinterestHTML];
