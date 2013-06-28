@@ -904,7 +904,6 @@
 				8707E3831732DB3200AFF0D6 /* AppDelegate */,
 				8707E3981732DC3800AFF0D6 /* Database */,
 				8707E3841732DB4300AFF0D6 /* CustomClasses */,
-				8707E38B1732DB6B00AFF0D6 /* ModelObjects */,
 				871075E117425D0C003B2C13 /* Components */,
 				8707E39F1732DED500AFF0D6 /* ViewControllers */,
 				8707E36D1732DAD100AFF0D6 /* Supporting Files */,
@@ -939,6 +938,7 @@
 		8707E3841732DB4300AFF0D6 /* CustomClasses */ = {
 			isa = PBXGroup;
 			children = (
+				8707E38B1732DB6B00AFF0D6 /* ModelObjects */,
 				8707E3851732DB5D00AFF0D6 /* XmlReader.h */,
 				8707E3861732DB5D00AFF0D6 /* XmlReader.m */,
 				8707E3871732DB5D00AFF0D6 /* SQLiteManager.h */,
