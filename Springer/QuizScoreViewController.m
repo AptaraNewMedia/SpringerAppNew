@@ -220,11 +220,11 @@
         }
     }
 
-    if (objQuizScore.intcorrectAns==0||totalSubmitedAnswer) {
+    if (objQuizScore.intcorrectAns==0) {
         objQuizScore.intTotalScore=0;
     }
     else{
-    objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer ;
+        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / total ;
     }
     lblTotalQuestion.text = [NSString stringWithFormat:@"%d", total];
     

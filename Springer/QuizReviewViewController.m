@@ -191,6 +191,8 @@ int quizscoreId;
         
         int totalSubmitedAnswer = 0;
         
+        int total = [objQuizScore.arrCorrectIncorrectAnswers count];
+        
         for (int i=0; i < [objQuizScore.arrCorrectIncorrectAnswers count]; i++) {
             
             int val = [[objQuizScore.arrCorrectIncorrectAnswers objectAtIndex:i] intValue];
@@ -207,8 +209,13 @@ int quizscoreId;
                 objQuizScore.intIncorrectAns++;
             }
         }
-           NSLog(@"%d",objQuizScore.arrCorrectIncorrectAnswers.count);
-        objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) /  objQuizScore.arrCorrectIncorrectAnswers.count;
+//           NSLog(@"%d",objQuizScore.arrCorrectIncorrectAnswers.count);
+        if (objQuizScore.intcorrectAns==0) {
+            objQuizScore.intTotalScore=0;
+        }
+        else{
+            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) /  total;
+        }
         
         result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", objQuizScore.arrCorrectIncorrectAnswers.count];
         

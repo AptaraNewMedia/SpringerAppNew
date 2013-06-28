@@ -290,6 +290,7 @@
             [self.navigationController pushViewController:result animated:YES];
             
             int totalSubmitedAnswer = 0;
+            int total = [objQuizScore.arrCorrectIncorrectAnswers count];
             
             for (int i=0; i < [objQuizScore.arrCorrectIncorrectAnswers count]; i++) {
                 
@@ -307,11 +308,11 @@
                     objQuizScore.intIncorrectAns++;
                 }
             }
-            if (objQuizScore.intcorrectAns==0||totalSubmitedAnswer) {
+            if (objQuizScore.intcorrectAns==0) {
                 objQuizScore.intTotalScore=0;
             }
             else{
-            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer;
+                objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / total;
             }
             result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", objQuizScore.arrCorrectIncorrectAnswers.count];        
             
@@ -363,7 +364,12 @@
                 }
             }
             
-            objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer ;
+            if (objQuizScore.intcorrectAns==0) {
+                objQuizScore.intTotalScore=0;
+            }
+            else{
+                objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / total ;
+            }
             
             result.lblTotalQuestion.text = [NSString stringWithFormat:@"%d", total];
             
