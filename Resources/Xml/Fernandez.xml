@@ -5,7 +5,8 @@
         
         <chapterno>1</chapterno>
         <title>Stroke</title>
-        <questions>            
+        <questions>
+            
             
             
             <question>
@@ -944,7 +945,7 @@
                 <strokeanswer>C</strokeanswer>
                 <rationaletext><![CDATA[Paraneoplastic antibodies can be seen with various malignancies, as outlined in the following. Given the patient’s history of smoking and suspicion for lung cancer, anti-Hu would be most expected in the setting of sensory neuropathy.<br>
                     
-                    <table border="1">
+                    <table border='1'>
                     <tr>
                     <th>Antibody</th>
                     <th>Malignancy</th>
@@ -1025,7 +1026,7 @@
                 <strokeanswer>D</strokeanswer>
                 <rationaletext><![CDATA[Early sphincter dysfunction is a feature of conus medullaris syndrome. All the other choices are seen in cauda equina syndrome. This patient’s exam localizes the lesion to L4-L5 since there is weakness of tibialis anterior and extensor hallucis longus, both of which are innervated by these nerve roots.
                     <br>
-                    <table border="1">
+                    <table border='1'>
                     <tr>
                     <th> </th>
                     <th>Cauda Equina Syndrome <br>(LMN signs only)</th>
@@ -1072,7 +1073,7 @@
                 <strokeanswer>D</strokeanswer>
                 <rationaletext><![CDATA[This patient most likely has peroneal neuropathy from repetitive external compression at the level of the fibular head secondary to external compression; in this case, from frequently crossing her legs at the interviews. The key finding that distinguishes peroneal neuropathy from an L5 lesion is obtained by testing foot invertors. Peroneal nerve lesions do not involve foot invertors. The following table outlines how to differentiate among types of foot drop. Tarsal tunnel syndrome is due to entrapment of the tibial nerve at the medial malleolus and causes painful paresthesias at the ankle, which can radiate into the first three toes.
                     <br>
-                    <table border="1">
+                    <table border='1'>
                     <tr>
                     <th> </th>
                     <th>Peroneal Neuropathy</th>
@@ -5008,7 +5009,7 @@
                     <HTML>
                     
                     <BODY>
-                    <table border="1">
+                    <table border='1'>
                     
                     <TR>
                     <th>Phase</th>
@@ -5128,6 +5129,8 @@
         <chapterno>17</chapterno>
         <title>Headache, Neuro-Oncology, and Transplant Neurology</title>
         <questions>
+            
+            
             
             <question>
                 <questionid>366</questionid>
