@@ -63,17 +63,20 @@ NSString *str;
     
     float x_ = ( self.view.frame.size.width - imgView.size.width ) / 2;
     float y_ = ( self.view.frame.size.height - imgView.size.height ) / 2;
-    
+    if (y_<-1) {
+        y_=30;
+         NSLog(@"yyyyyyy%f",y_);
+    }
     
     
     NSLog(@"%f",imgView.size.width);
-    NSLog(@"%f",imgView.size.height);
+    NSLog(@"hhhhhhhh%f",imgView.size.height);
     float Height;
     float wedth;
     
     Height=imgView.size.height;
-    wedth=imgView.size.width;
-    if (imgView.size.width > self.view.frame.size.width || imgView.size.height > self.view.frame.size.height) {
+    wedth=imgView.size.width-44;
+    if (imgView.size.width > self.view.frame.size.width || imgView.size.height > self.view.frame.size.height-44) {
         x_=30;
         y_=50;
         Height=self.view.frame.size.height-100;

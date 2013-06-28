@@ -219,9 +219,13 @@
             objQuizScore.intIncorrectAns++;
         }
     }
-    
+
+    if (objQuizScore.intcorrectAns==0||totalSubmitedAnswer) {
+        objQuizScore.intTotalScore=0;
+    }
+    else{
     objQuizScore.intTotalScore = ( objQuizScore.intcorrectAns * 100 ) / totalSubmitedAnswer ;
-    
+    }
     lblTotalQuestion.text = [NSString stringWithFormat:@"%d", total];
     
     lblAnsSubmited.text = [NSString stringWithFormat:@"%d", objQuizScore.intcorrectAns+objQuizScore.intIncorrectAns];

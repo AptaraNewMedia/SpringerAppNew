@@ -403,92 +403,123 @@ static NSString * const kClientId = @"430298569116.apps.googleusercontent.com";
 }
 -(IBAction)Bn_Facebook_Tapped:(id)sender
 {
-    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    
+//    shareview.hidden=NO;
+//
+//    NSString *urlAddress = @"https://www.facebook.com/sharer/sharer.php?u=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+//    
+//    NSURL *url = [NSURL URLWithString:urlAddress];
+//    
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    
+//    [webshare loadRequest:requestObj];
+//
+//    [self ShareAnimaton];
     
-    shareview.hidden=NO;
-
-    NSString *urlAddress = @"https://www.facebook.com/sharer/sharer.php?u=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
     
-    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURL *url = [NSURL URLWithString:@"https://www.facebook.com/sharer/sharer.php?u=www.demosmedpub.com/prod.aspx?prod_id=9781620700020"];
     
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [webshare loadRequest:requestObj];
-
-    [self ShareAnimaton];
+    if (![[UIApplication sharedApplication] openURL:url])
+        
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
 
 }
 
 -(IBAction)Bn_Twitter_Tapped:(id)sender
 {
    
-    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    
+//    shareview.hidden=NO;
+//
+//    NSString *urlAddress = @"http://twitter.com/home?status=I'm+using+the+Ultimate+Review+for+the+Neurology+Boards+App+www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+//    
+//    NSURL *url = [NSURL URLWithString:urlAddress];
+//    
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    
+//    [webshare loadRequest:requestObj];
+//    
+//    [self ShareAnimaton];
     
-    shareview.hidden=NO;
-
-    NSString *urlAddress = @"http://twitter.com/home?status=I'm+using+the+Ultimate+Review+for+the+Neurology+Boards+App+www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
     
-    NSURL *url = [NSURL URLWithString:urlAddress];
+    NSURL *url = [NSURL URLWithString:@"http://twitter.com/home?status=I'm+using+the+Ultimate+Review+for+the+Neurology+Boards+App+www.demosmedpub.com/prod.aspx?prod_id=9781620700020"];
     
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [webshare loadRequest:requestObj];
-    
-    [self ShareAnimaton];
+    if (![[UIApplication sharedApplication] openURL:url])
+        
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
 
 }
 
 -(IBAction)Bn_linkedin_Tapped:(id)sender
 {
    
-    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    
+//    shareview.hidden=NO;
+//
+//    NSString *urlAddress = @"https://www.linkedin.com/cws/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+//    
+//    NSURL *url = [NSURL URLWithString:urlAddress];
+//    
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    
+//    [webshare loadRequest:requestObj];
+//    [self ShareAnimaton];
     
-    shareview.hidden=NO;
-
-    NSString *urlAddress = @"https://www.linkedin.com/cws/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+    NSURL *url = [NSURL URLWithString:@"https://www.linkedin.com/cws/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020"];
     
-    NSURL *url = [NSURL URLWithString:urlAddress];
-    
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [webshare loadRequest:requestObj];
-    [self ShareAnimaton];
+    if (![[UIApplication sharedApplication] openURL:url])
+        
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
 
 }
 
 -(IBAction)Bn_Pinterest_Tapped:(id)sender
 {
     
-    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    
+//    shareview.hidden=NO;
+//
+//    NSString *urlAddress = @"http://pinterest.com/pin/create/button/?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+//    
+//    NSURL *url = [NSURL URLWithString:urlAddress];
+//    
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    
+//    [webshare loadRequest:requestObj];
+//    [self ShareAnimaton];
+//
+    NSURL *url = [NSURL URLWithString:@"http://pinterest.com/pin/create/button/?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020"];
     
-    shareview.hidden=NO;
-
-    NSString *urlAddress = @"http://pinterest.com/pin/create/button/?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
-    
-    NSURL *url = [NSURL URLWithString:urlAddress];
-    
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [webshare loadRequest:requestObj];
-    [self ShareAnimaton];
-
+    if (![[UIApplication sharedApplication] openURL:url])
+        
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
     
 }
 -(IBAction)GooglePlus_tapped:(id)sender
 {
     
-    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    self.navigationController.navigationBar.userInteractionEnabled=NO;
+//    
+//    shareview.hidden=NO;
+//
+//    NSString *urlAddress = @"https://plus.google.com/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+//    
+//    NSURL *url = [NSURL URLWithString:urlAddress];
+//    
+//    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
+//    
+//    [webshare loadRequest:requestObj];
+//    [self ShareAnimaton];
     
-    shareview.hidden=NO;
-
-    NSString *urlAddress = @"https://plus.google.com/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020";
+    NSURL *url = [NSURL URLWithString:@"https://plus.google.com/share?url=www.demosmedpub.com/prod.aspx?prod_id=9781620700020"];
     
-    NSURL *url = [NSURL URLWithString:urlAddress];
-    
-    NSURLRequest *requestObj = [NSURLRequest requestWithURL:url];
-    
-    [webshare loadRequest:requestObj];
-    [self ShareAnimaton];
+    if (![[UIApplication sharedApplication] openURL:url])
+        
+        NSLog(@"%@%@",@"Failed to open url:",[url description]);
 
 }
 
