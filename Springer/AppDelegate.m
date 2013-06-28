@@ -122,7 +122,7 @@
     // initialize databse
     db = [[DatabaseQueries alloc] init];
     
-    int xmlExist = [db fnCheckXMLCopiedInDatabase];
+  /*  int xmlExist = [db fnCheckXMLCopiedInDatabase];
     if (xmlExist == 0) {
         // Read XML File
         XmlReader *xml = [[XmlReader alloc] init];
@@ -132,7 +132,7 @@
         }
         [db fnUPdateXMLexistinDatabase];
     }
-    
+    */
     // get data of chapterlist
     [db fnGetChapterList];    
     
