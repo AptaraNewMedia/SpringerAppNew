@@ -246,7 +246,7 @@
 
 -(void)fnSetVariables
 {
-    arrFilter = [[NSArray alloc] initWithObjects:@"All Questions",@"Unused Questions",@"Used Questions",@"Incorrectly Answered Questions",@"Flagged Questions", nil];
+    arrFilter = [[NSArray alloc] initWithObjects:@"Select All",@"Unused Questions",@"Used Questions",@"Incorrectly Answered Questions",@"Flagged Questions", nil];
     arrFilterType = [[NSArray alloc] initWithObjects:[NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], [NSNumber numberWithInt:0], nil];
     lblSelectedQuestionsCount.text = @"0/0";
     
@@ -790,7 +790,7 @@
     else if(tableView == tblTopics) {
         
         if (indexPath.row == 0) {
-            cell.textLabel.text = @"All Topics";
+            cell.textLabel.text = @"Select All";
         }
         else {
             Chapters *objChap = (Chapters *)[chapterDbData objectAtIndex:indexPath.row-1];
